@@ -19,14 +19,6 @@
     z-index: 1;
 }
 
-.heroImg {
-    width: 50%;
-    z-index: 1;
-
-    /* Deja que la altura se ajuste automáticamente */
-    border-radius: 100%; /* Usa 50% para un círculo perfecto */
-    overflow: hidden; /* Recorta cualquier parte de la imagen que se extienda más allá del círculo */
-  }
   .title{
     font-size: 72px;
     font-weight: 900;
@@ -56,5 +48,30 @@
     padding: 17px 26px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
     border: solid 1px yellowgreen
-
   }
+
+  .heroImg {
+    width: 50%;
+    z-index: 1;
+
+    /* Deja que la altura se ajuste automáticamente */
+    border-radius: 100%; /* Usa 50% para un círculo perfecto */
+    overflow: hidden; /* Recorta cualquier parte de la imagen que se extienda más allá del círculo */
+
+    animation-name: floating ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    0%{
+        transform: translate(0, 0px)
+    }
+    50%{
+        transform: translate(0, 10px);
+    }
+    100%{
+        transform: translate(0, -0px);
+    }
+}
