@@ -1,5 +1,6 @@
 
 import styles from './Hero.module.css';
+import me from '../../assets/me.jpg'
 
 import React from 'react'
 
@@ -10,7 +11,7 @@ const Hero = () => {
         <p>I'm a full stack developer with experience in React, Node Js, Express, PostgreSQL</p>
         <a href="mailto:francotomassich@gmail.com">Contact me</a>
         </div>
-        <img src={getImageUrl}/>
+        <img src={me} alt='Hero image of me'/>
     </section>
   )
 }
