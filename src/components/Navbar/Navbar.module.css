@@ -15,11 +15,14 @@
     font-weight: 600;
     text-decoration: none;
     color: var(--color-text);
-
 }
-
 .menu{
     display:flex;
+}
+
+.menuBtn{
+    height: 40px;
+    width: 40px;
 }
 
 .menuItems{
@@ -28,11 +31,28 @@
     list-style: none;
 }
 
+
 .menuItems a{
     font-size: 25px;
     color: var(--color-text);
     text-decoration: none;
 
+    position: relative;
+}
+
+.menuItems a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* Controla la distancia del subrayado desde el texto */
+    width: 100%;
+    height: 2px; /* Controla el grosor del subrayado */
+    background-color: var(--color-text); /* Color del subrayado */
+    transition: width 0.3s ease; /* Transición suave */
+}
+
+.menuItems a:hover::after {
+    width: 0; /* Hace que el subrayado se complete suavemente */
 }
 
 @media screen and (max-width: 830px) {
@@ -53,12 +73,27 @@
 
     .menuBtn {
         display: block;
-        cursor: pointer
+        cursor: pointer;
     }
 
     .menuItems{
+        display: none;
         flex-direction: column;
         align-items: center;
         gap: 13px;
+        border-radius: 10px;
+        background: rgb(3, 13, 31);
+        background: linear-gradient(
+            0deg,
+            rgba(3,13,31, 0.2) 0%,
+            rgba(3,13,31, 1) 100%
+        );
+        padding: 24px 33px;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0.25);
+    }
+
+    .menuOpen {
+        display:flex;
+        z-index: 1;
     }
 }
