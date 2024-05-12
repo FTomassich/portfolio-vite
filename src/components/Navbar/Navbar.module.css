@@ -86,7 +86,7 @@
         background: linear-gradient(
             0deg,
             rgba(0,0,0, 0.2) 0%,
-            rgb(0, 0, 0) 100%
+            rgb(15, 15, 15) 100%
         );
         padding: 24px 33px;
         box-shadow: 0 0 4px 0 rgba(0, 0, 0.25);
