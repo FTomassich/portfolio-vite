@@ -20,7 +20,7 @@
 }
 
 .heroImg {
-    width: 40vw;
+    width: 700px;
     height: auto;
 
     /* Deja que la altura se ajuste automáticamente */
@@ -32,5 +32,25 @@
     font-weight: 900;
     margin-bottom: 33px;
     font-family: var(--font-roboto);
-    background: linear-gradient();
+    background: linear-gradient(
+        90deg,
+        rgba(255,255,255,1) 70%,
+        rgba(255, 255, 255, 0) 120%
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+  .description{
+    font-size: 30px;
+    font-family: var(--font-roboto);
+    margin-bottom: 52px;
+  }
+
+  .contactBtn{
+    text-decoration: none;
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    border-radius: 30px;
+
   }
