@@ -1,14 +1,16 @@
 @import "../../vars.css";
 
 .container{
+  background-image: url('./src/assets/nebula.jpg');
+  background-size: cover;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 49px;
+    /* margin-top: 29px; */
     z-index: 1;
-    margin-left: 10%;
-    margin-right: 10%;
+    height: 600px;
+    
 }
 
 .content {
@@ -17,9 +19,12 @@
     align-items: flex-start;
     color: var(--color-text);
     z-index: 1;
+    margin-left: 10%;
+    /* margin-right: 10%; */
 }
 
   .title{
+    /* margin-top: 70px; */
     font-size: 72px;
     font-weight: 900;
     margin-bottom: 33px;
@@ -34,10 +39,22 @@
   }
 
   .description{
+    
     width: 90%;
     font-size: 30px;
+    font-weight: 600;
     font-family: var(--font-roboto);
     margin-bottom: 52px;
+  
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 1) 70%,
+        rgba(255, 255, 255, 0) 120%
+    );
+     /* Ajusta el relleno según tus necesidades */
+    background-clip: text; /* Aplicar el degradado al texto */
+    -webkit-background-clip: text; /* Para navegadores webkit como Safari */
+    color: transparent; 
   }
 
   .contactBtn{
@@ -48,22 +65,19 @@
     font-size: 30px;
     padding: 17px 26px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
-    border: solid 1px yellowgreen
+    border: solid 3px yellowgreen;
   }
 
 
 
   .heroImg {
-    
+
+    margin-right: 10%;
     width: 300px;
     z-index: 1;
     border-radius: 50%;
     border: solid 2px;
-    border-color: yellowgreen;
-    
-
-    
-
+    border-color: white;
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;

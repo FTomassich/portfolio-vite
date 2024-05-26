@@ -1,14 +1,17 @@
 @import "../../vars.css";
 
 .navbar{
-    
+    background-color: black;
     position: relative;
+  
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 61px;
+    height: 100px;
+    /* padding-top: 61px; */
     z-index: 2;
-    margin: 0 10%;
+    /* margin: 0 10%; */
+    border-bottom: solid 1px ;
 }
 
 .title{
@@ -16,9 +19,11 @@
     font-weight: 600;
     text-decoration: none;
     color: var(--color-text);
+    margin-left: 10%;
 }
 .menu{
     display:flex;
+    margin-right: 10%;
 }
 
 .menuBtn{
@@ -59,21 +64,26 @@
 
 @media screen and (max-width: 830px) {
     .navbar{
-        flex-direction: column;
+        
+       
         align-items: flex-start;
     }
 
     .menu{
         position: absolute;
         right: 0;
-        
         flex-direction: column;
         align-items: flex-end;
         gap: 11px;
         z-index: 3;
     }
 
+    .title{
+        margin-top: 25px;
+    }
+
     .menuBtn {
+        margin-top: 25px;
         display: block;
         cursor: pointer;
     }
