@@ -9,7 +9,8 @@
     justify-content: space-between;
     /* margin-top: 29px; */
     z-index: 1;
-    height: 600px;
+    /* height: 600px; */
+    height: 590px;
     
 }
 
@@ -71,13 +72,10 @@
 
 
   .heroImg {
-
     margin-right: 10%;
-    width: 300px;
+    width: 450px;
     z-index: 1;
-    border-radius: 50%;
-    border: solid 2px;
-    border-color: white;
+    border-radius: 60%;
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;

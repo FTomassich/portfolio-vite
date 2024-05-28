@@ -1,8 +1,9 @@
 
 import styles from './Hero.module.css';
-import me from '../../assets/me.jpg'
 
-import React from 'react'
+import atron from "../../assets/atron.png";
+
+
 
 const Hero = () => {
   return (
@@ -12,7 +13,7 @@ const Hero = () => {
         <p className={styles.description}>Full stack developer with experience in HTML, CSS, React, Redux, Express, Sequelize, PostgreSQL, 🚀</p>
         <a href="mailto:francotomassich@gmail.com" className={styles.contactBtn}>Contact me</a>
         </div>
-        <img src={me} alt='Hero image of me' className={styles.heroImg}/>
+        <img src={atron} alt='Hero image of me' className={styles.heroImg}/>
         
         
      
