@@ -1,10 +1,10 @@
 @import "../../vars.css";
 
 .container{
-  background-color: yellowgreen;
   
-  /* background-image: url('./src/assets/fondo.jpg');
-  background-size: cover; */
+  
+  background-image: url('./src/assets/fondo.jpg');
+  background-size: cover;
     position: relative;
     display: flex;
     align-items: center;
