@@ -1,9 +1,8 @@
 @import "../../vars.css";
+/* @import url(); */
 
 .container{
-  
-  
-  background-image: url('../public/images/fondo.jpg');
+  background-image: url('../../assets/fondo.jpg');
   background-size: cover;
     position: relative;
     display: flex;
@@ -12,8 +11,7 @@
     /* margin-top: 29px; */
     z-index: 1;
     /* height: 600px; */
-    height: 590px;
-    
+    height: 590px; 
 }
 
 .content {
