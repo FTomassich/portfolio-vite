@@ -1,0 +1,8 @@
+.section{
+    margin: 0 auto;
+    background-color: yellowgreen;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+}
