@@ -151,6 +151,7 @@ width: 100%;
     /* margin-left: 5%; */
     display:flex;
    padding: 30px;
+   box-sizing: border-box;
     /* justify-content: center;
     align-items: center;
     align-content: center; */
