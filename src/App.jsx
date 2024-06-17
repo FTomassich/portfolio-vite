@@ -10,7 +10,7 @@ function App() {
     <>
      <div className={styles.App}>
       <Navbar/>
-      <Hero/>
+      {/* <Hero/> */}
       <Skills/>
      </div>
     </>

@@ -11,8 +11,8 @@ const Hero = () => {
     <section className={styles.container} style={{ backgroundImage: `url(${fondo})` }}>
 
       <div className={styles.content}>
-        {/* <h1 className={styles.title}>Franco Tomassich</h1>
-        <p className={styles.description}>Full stack developer with experience in HTML, CSS, React, Redux, Express, Sequelize, PostgreSQL, 🚀</p> */}
+        <h1 className={styles.title}>Franco Tomassich</h1>
+        <p className={styles.description}>Full stack developer with experience in HTML, CSS, React, Redux, Express, Sequelize, PostgreSQL, 🚀</p>
       </div>
       <div className={styles.contImage}>
         <img src={atron} alt='Hero image of me' className={styles.heroImg} />
