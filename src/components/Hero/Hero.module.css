@@ -39,6 +39,7 @@
   .title{
     /* margin-top: 70px; */
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     font-size: 72px;
@@ -148,7 +149,7 @@
     align-content: center;
   }
   .title{
-    
+    flex-direction: column;
     margin-top: 40px;
     justify-content: center;
     font-size: 62px;
