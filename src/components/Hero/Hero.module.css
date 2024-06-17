@@ -93,7 +93,7 @@
   
   .heroImg {
     /* position: relative; */
-    margin-right: 10%;
+    /* margin-right: 10%; */
     width: 450px;
     z-index: 1;
     border-radius: 60%;
@@ -133,15 +133,19 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   margin: 0;
    
    height: 900px;
 
     /* Otros estilos específicos para móviles */
   }
   .content{
+    
     display:flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    align-content: center;
   }
   .title{
     margin-top: 40px;
