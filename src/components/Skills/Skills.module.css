@@ -1,6 +1,7 @@
+@import "../../vars.css";
 .section{
     margin: 0 auto;
-    background-color: yellowgreen;
+    background-color: var(--color-secondary);
     flex-direction: row;
     align-items: center;
     justify-content: center;
