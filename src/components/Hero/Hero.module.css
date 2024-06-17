@@ -140,7 +140,7 @@
     /* Otros estilos específicos para móviles */
   }
   .content{
-    /* margin-left: 5%; */
+    margin-left: 5%;
     display:flex;
     flex-direction: column;
     justify-content: center;
