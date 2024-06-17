@@ -142,7 +142,7 @@ width: 100%;
    justify-content: normal;
    align-items: center;
   
-   
+   box-sizing: border-box;
    height: 900px;
 
     /* Otros estilos específicos para móviles */
