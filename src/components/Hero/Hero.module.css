@@ -148,8 +148,10 @@
     align-content: center;
   }
   .title{
+    margin: 0;
     margin-top: 40px;
     justify-content: center;
+
   }
   
 }
