@@ -12,12 +12,12 @@ const Hero = () => {
  {/* <div className={styles.content}>
         <h1 className={styles.title}>Franco Tomassich</h1>
         <p className={styles.description}>Full stack developer with experience in HTML, CSS, React, Redux, Express, Sequelize, PostgreSQL, 🚀</p>
-      </div> */}
+      </div>
       
       <div className={styles.contImage}>
         <img src={atron} alt='Hero image of me' className={styles.heroImg} />
         <a href="mailto:francotomassich@gmail.com" className={styles.contactBtn}>Contact me</a>
-      </div>
+      </div> */}
      
       
     </section>
