@@ -17,7 +17,7 @@
 }
 
 .content {
-width: auto;
+width: 100%;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -25,7 +25,7 @@ width: auto;
     color: var(--color-text);
     z-index: 1;
     margin-left: 10%;
-    /* margin-right: 10%; */
+    margin-right: 10%;
 }
 
 .contImage{
@@ -38,6 +38,7 @@ width: auto;
 }
 
   .title{
+    width: 100%;
     /* margin-top: 70px; */
     display: flex;
     flex-direction: row;
@@ -57,8 +58,11 @@ width: auto;
   }
 
   .description{
-    
-    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     font-size: 30px;
     font-weight: 600;
     font-family: var(--font-roboto);
@@ -142,12 +146,12 @@ width: auto;
     /* Otros estilos específicos para móviles */
   }
   .content{
-    margin-left: 5%;
+    /* margin-left: 5%; */
     display:flex;
-    flex-direction: column;
-    justify-content: center;
+   padding: 30px;
+    /* justify-content: center;
     align-items: center;
-    align-content: center;
+    align-content: center; */
   }
   .title{
     flex-direction: column;
