@@ -2,7 +2,7 @@
 /* @import url(); */
 
 .container{
-  width: auto;
+  width: 100%;
   background-image: url('../../assets/fondo.jpg');
   background-size: cover;
     position: relative;
@@ -144,8 +144,6 @@ width: 100%;
   
    box-sizing: border-box;
    height: 900px;
-
-    /* Otros estilos específicos para móviles */
   }
   .content{
     /* margin-left: 5%; */
