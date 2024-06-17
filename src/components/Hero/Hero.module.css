@@ -23,7 +23,7 @@
     justify-content: center;
     color: var(--color-text);
     z-index: 1;
-    margin-left: 10%;
+    /* margin-left: 5%; */
     /* margin-right: 10%; */
 }
 
@@ -140,7 +140,7 @@
     /* Otros estilos específicos para móviles */
   }
   .content{
-    
+    margin-left: 10%;
     display:flex;
     flex-direction: column;
     justify-content: center;
