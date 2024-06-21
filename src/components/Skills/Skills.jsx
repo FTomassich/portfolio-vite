@@ -7,7 +7,10 @@ const Skills = () => {
   return (
 
     <section className={styles.section}>
-        <div></div>
+        <h1>Skills</h1>
+        <div>
+          
+        </div>
     </section>
     
   )
