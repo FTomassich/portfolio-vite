@@ -77,6 +77,18 @@ const Skills = () => {
         ))}
       </ul>
       </div>
+      <div className={styles.container}>
+        <div className={styles.item}>
+          <h2 className={styles.h2}>FRONT-END</h2>
+          <h3 className={styles.h3}>HTML/CSS/REACT/REDUX</h3>
+        
+        </div>
+        <div className={styles.item}>
+          <h2 className={styles.h2}>BACK-END</h2>
+          <h3 className={styles.h3}>EXPRESS/POSTGRESQL/SEQUELIZE</h3>
+        
+        </div>
+      </div>
     </section>
   );
 };
