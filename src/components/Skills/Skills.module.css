@@ -14,13 +14,15 @@
 
     text-decoration: none;
     background-color: white;
-    width: 100%;
+    /* width: auto; */
     height: 200px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    
+    overflow: hidden;
+  white-space: nowrap;
+  animation: scroll 20s linear infinite;
 }
 
 .title{
@@ -35,5 +37,16 @@
 }
 
 .icon{
-    width: 80px;
+    width: 100px;
+    height: 100px;
+    margin: 0 15px;
 }
+
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%)
+    }
+  }
