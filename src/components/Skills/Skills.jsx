@@ -49,6 +49,9 @@ import node from "../../assets/node.png";
 import javascript from "../../assets/javascript.png";
 import git from "../../assets/git.png";
 import vite from "../../assets/vite.png";
+import html from "../../assets/html.png";
+import sequelize from "../../assets/sequelize.png"
+
 
 const Skills = () => {
   const icons = [
@@ -61,6 +64,9 @@ const Skills = () => {
     { src: javascript, alt: "JavaScript" },
     { src: git, alt: "Git" },
     { src: vite, alt: "Vite" },
+    { src: html, alt: "Html" },
+    { src: sequelize, alt: "Sequelize" }
+
   ];
 
   return (
