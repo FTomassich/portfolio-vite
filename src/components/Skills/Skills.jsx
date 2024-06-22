@@ -93,7 +93,7 @@ const Skills = () => {
         <div className={styles.item}>
           <h2 className={styles.h2}>BACK-END</h2>
           <h3 className={styles.h3}>EXPRESS/POSTGRESQL/SEQUELIZE</h3>
-          <strong className={styles.strong}>hola soy franco</strong>
+          <strong className={styles.strong}>In the backend domain, I have extensive experience in designing and diagramming efficient and scalable databases. I have worked with various technologies to ensure that data is stored optimally and securely. My approach includes data normalization, creating relationships between tables, and implementing indexes to improve performance. This experience allows me to develop robust backend solutions that support complex and high-performance applications.</strong>
         
         </div>
       </div>
