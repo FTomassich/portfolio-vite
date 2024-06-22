@@ -65,9 +65,10 @@ const Skills = () => {
 
   return (
     <section className={styles.section}>
-      <div>
+      <div >
         <h1 className={styles.title}>Tech Skills</h1>
       </div>
+      <div className={styles.carousel}>
       <ul className={styles.techList}>
         {icons.concat(icons).map((icon, index) => (
           <li key={index}>
@@ -75,6 +76,7 @@ const Skills = () => {
           </li>
         ))}
       </ul>
+      </div>
     </section>
   );
 };
