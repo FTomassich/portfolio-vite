@@ -70,18 +70,21 @@
 .item{
     
     width: 100%;
-    height: 200px;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-content: center;
+    justify-content: center;
+    align-items: center;
    
 }
 
 .h2{
+    width: 100%;
     background-color: yellowgreen;
     display: flex;
     justify-content: center;
-    align-items: center;
+    
 }
 
 .h3 {
@@ -92,6 +95,21 @@
     justify-content: center;
     align-items: center;
 }
+
+.strong {
+    padding: 30px;
+    width: 90%;
+    height: 100%;
+    font-size: 20px;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    align-content: center;
+}
+
+
 @keyframes scroll {
     0% {
       transform: translateX(0);
