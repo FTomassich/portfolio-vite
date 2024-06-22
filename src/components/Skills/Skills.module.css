@@ -70,10 +70,11 @@
   @media only screen and (max-width: 830px) {
     .title {
         font-size: 70px;
+        height: 150px;
         }
 
         .techList{
-            height: 150px;
+            height: 100px;
         }
 
         .icon{
