@@ -78,5 +78,7 @@
         .group {
             width: 80vw;
             height: 30vh;
+            display: flex;
+            align-items: center;
         }
     }
