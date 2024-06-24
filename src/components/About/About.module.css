@@ -34,6 +34,7 @@
     background-color: var(--color-secondary);
     /* --color-secondary: #333333; */
     height: 40vh;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,5 +67,8 @@
         margin-top: 20px;
         font-size: 70px;
         height: 150px;
+        }
+        .strong{
+            font-size: 16px;
         }
     }
