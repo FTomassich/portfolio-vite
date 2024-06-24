@@ -65,6 +65,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    text-align: justify;
 
 }
 
@@ -81,16 +82,17 @@
 }
 
 .h2{
-    width: 100%;
+    width: 95%;
     background-color: yellowgreen;
     display: flex;
     justify-content: center;
+    font-size:xx-large;
     
 }
 
 .h3 {
     background-color: blueviolet;
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
