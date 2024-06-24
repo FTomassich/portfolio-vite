@@ -14,7 +14,7 @@ const About = () => {
             <div className={styles.group}>
 
                 <strong className={styles.strong}>
-                    ✍Mi formación en comunicación, y mi impronta personal me brindaron sólidos conocimientos en redacción para distintas plataformas y soportes: periodística , marketing digital, y redes sociales. A su vez, cuento con criterio y conocimiento para planificar y ejecutar piezas gráficas y visuales, tales como: publicaciones en redes sociales, flyers, revistas, folletos. Esta combinación de habilidades me permite, desde una perspectiva integral, diseñar y crear experiencias web atractivas, funcionales y orientadas a un público objetivo.
+                    ✍Tengo sólidos conocimientos en redacción para distintos rubros y plataformas: periodística , marketing digital, y redes sociales. A su vez, puedo diseñar piezas gráficas y visuales, tales como: publicaciones en redes sociales, flyers, revistas, folletos, etc. La combinación de mis habilidades me permite diseñar y crear experiencias web efectivas, orientadas a un público objetivo.
                 </strong>
             </div>
             <div className={styles.group}>
