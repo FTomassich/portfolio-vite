@@ -1,6 +1,7 @@
 @import "../../vars.css";
 
 .section{
+    border-top: solid 16px black;
     display: flex;
    
     background-color: var(--color-secondary);
