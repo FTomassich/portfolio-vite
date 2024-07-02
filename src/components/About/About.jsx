@@ -1,10 +1,15 @@
 import React from 'react'
 import styles from './About.module.css';
+import alien from "../../assets/alien.png";
 
 const About = () => {
     return (
         <section className={styles.container}>
-            <h1 className={styles.title}>About</h1>
+            <div className={styles.duo}>
+            <img className={styles.alien} src={alien} alt="alien" />
+                <h1 className={styles.title}>About</h1>
+            
+            </div>
             <div className={styles.box}>
             <div className={styles.group}>
                 <strong className={styles.strong}>👨‍💻Soy Full Stack Developer, recientemente egresado de Henry Bootcamp
