@@ -87,7 +87,7 @@ const Skills = () => {
         <div className={styles.item}>
           <h2 className={styles.h2}>FRONT-END</h2>
           <h3 className={styles.h3}>HTML / CSS / REACT / REDUX</h3>
-          <strong className={styles.strong}>Como desarrollador frontend, disfruto creando interfaces de usuario intuitivas y creativas. Trabajo para que mis sitios sean responsivos y se adapten a distintos dispositivos. Tengo experiencia en el desarrollo de componentes complejos, como formularios controlados para la creación de productos, inicio de sesión, registro de usuarios y recuperación de contraseñas. Combino estética y funcionalidad para conseguir productos web atractivos y altamente usables.</strong>
+          <strong className={styles.strong}>Como desarrollador frontend, disfruto creando interfaces de usuario intuitivas y creativas con HTML o React. Me esfuerzo para que mis sitios sean responsivos y se adapten a distintos dispositivos. Tengo experiencia en el desarrollo de componentes avanzados, como formularios controlados para la creación de productos, inicio de sesión, registro de usuarios y recuperación de contraseñas. Combino estética y funcionalidad para conseguir productos web atractivos y altamente usables.</strong>
         
         </div>
         <div className={styles.item}>
