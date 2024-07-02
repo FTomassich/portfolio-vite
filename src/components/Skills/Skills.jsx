@@ -93,7 +93,7 @@ const Skills = () => {
         <div className={styles.item}>
           <h2 className={styles.h2}>BACK-END</h2>
           <h3 className={styles.h3}>EXPRESS / POSTGRESQL / SEQUELIZE</h3>
-          <strong className={styles.strong}>En el ámbito del backend, tengo experiencia en la diagramación y gestión de bases de datos eficientes, con PostgreSQL, y también en el desarrollo de servidores con Express.js para aplicaciones Node.js. Entre mis habilidades también se incluye el mapeo objeto-relacional con Sequelize ORM, la creación de relaciones entre tablas y la implementación de índices para mejorar el rendimiento. También cuento con experiencia integrando Apis y realizando fetching de datos. Esta experiencia me permite desarrollar soluciones backend robustas que soportan aplicaciones complejas y de alto rendimiento.</strong>
+          <strong className={styles.strong}>Tengo experiencia en la diagramación y gestión de bases de datos eficientes con PostgreSQL. He desarrollado servidores utilizando Express.js para aplicaciones Node.js y tengo habilidades en el mapeo objeto-relacional con Sequelize ORM. Esto incluye la creación de relaciones entre tablas y la implementación de índices para mejorar el rendimiento. Además, tengo experiencia en la integración de APIs y la realización de fetching de datos. Esta combinación de habilidades me permite desarrollar soluciones backend robustas que soportan aplicaciones complejas y de alto rendimiento.</strong>
         
         </div>
       </div>
