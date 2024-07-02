@@ -87,15 +87,13 @@ const Skills = () => {
         <div className={styles.item}>
           <h2 className={styles.h2}>FRONT-END</h2>
           <h3 className={styles.h3}>HTML / CSS / REACT / REDUX</h3>
-          <strong className={styles.strong}>Como desarrollador frontend, disfruto creando interfaces de usuario intuitivas y creativas. Trabajo para que mis sitios sean responsivos y se adapten a distintos dispositivos. Tengo experiencia en el desarrollo de componentes complejos, como formularios controlados para la creación de productos, inicio de sesión, registro de usuarios y recuperación de contraseñas. Combino estética y funcionalidad para conseguir productos web atractivos y altamente usables.
-
-Traducción realizada con la versión gratuita del traductor DeepL.com</strong>
+          <strong className={styles.strong}>Como desarrollador frontend, disfruto creando interfaces de usuario intuitivas y creativas. Trabajo para que mis sitios sean responsivos y se adapten a distintos dispositivos. Tengo experiencia en el desarrollo de componentes complejos, como formularios controlados para la creación de productos, inicio de sesión, registro de usuarios y recuperación de contraseñas. Combino estética y funcionalidad para conseguir productos web atractivos y altamente usables.</strong>
         
         </div>
         <div className={styles.item}>
           <h2 className={styles.h2}>BACK-END</h2>
           <h3 className={styles.h3}>EXPRESS / POSTGRESQL / SEQUELIZE</h3>
-          <strong className={styles.strong}>In the backend domain, I have extensive experience in designing and diagramming efficient and scalable databases. I have worked with various technologies to ensure that data is stored optimally and securely. My approach includes data normalization, creating relationships between tables, and implementing indexes to improve performance. This experience allows me to develop robust backend solutions that support complex and high-performance applications.</strong>
+          <strong className={styles.strong}>En el ámbito del backend, tengo amplia experiencia en el diseño y la diagramación de bases de datos eficientes y escalables. He trabajado con diversas tecnologías para garantizar que los datos se almacenan de forma óptima y segura. Mi enfoque incluye la normalización de datos, la creación de relaciones entre tablas y la implementación de índices para mejorar el rendimiento. Esta experiencia me permite desarrollar soluciones backend robustas que soportan aplicaciones complejas y de alto rendimiento.</strong>
         
         </div>
       </div>
