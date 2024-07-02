@@ -87,7 +87,9 @@ const Skills = () => {
         <div className={styles.item}>
           <h2 className={styles.h2}>FRONT-END</h2>
           <h3 className={styles.h3}>HTML / CSS / REACT / REDUX</h3>
-          <strong className={styles.strong}>As a passionate frontend developer, I love creating intuitive and creative user interfaces using the mentioned technologies. I have a keen eye for design and always ensure that my sites are responsive, providing an optimal experience on any device. I have experience developing complex components, such as controlled forms for product creation, login, user registration, and password recovery. I enjoy paying attention to both the design and architecture of my projects, combining aesthetics and functionality to achieve attractive and highly usable web products.</strong>
+          <strong className={styles.strong}>Como desarrollador frontend, disfruto creando interfaces de usuario intuitivas y creativas. Trabajo para que mis sitios sean responsivos y se adapten a distintos dispositivos. Tengo experiencia en el desarrollo de componentes complejos, como formularios controlados para la creación de productos, inicio de sesión, registro de usuarios y recuperación de contraseñas. Combino estética y funcionalidad para conseguir productos web atractivos y altamente usables.
+
+Traducción realizada con la versión gratuita del traductor DeepL.com</strong>
         
         </div>
         <div className={styles.item}>
