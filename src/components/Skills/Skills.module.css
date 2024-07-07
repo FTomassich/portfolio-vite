@@ -143,5 +143,11 @@
             margin-top: 35px;
         }
 
+        .strong{
+            font-family: var(--font-roboto);
+            font-size: 12px;
+            font-weight: 300;
+        }
+
 
   }
