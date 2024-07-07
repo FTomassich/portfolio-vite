@@ -163,6 +163,10 @@ width: 100%;
     font-size: 20px;
     font-weight: 400;
   }
+
+  .contImage{
+    justify-content: space-around;
+  }
   
 }
 
