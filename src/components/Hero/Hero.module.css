@@ -166,6 +166,7 @@ width: 100%;
 
   .contImage{
     justify-content: space-around;
+    height: 400px;
   }
   
 }
