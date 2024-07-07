@@ -7,7 +7,7 @@ const About = () => {
         <section className={styles.container}>
             <div className={styles.duo}>
             {/* <img className={styles.alien} src={alien} alt="alien" /> */}
-                <h1 className={styles.title}>About</h1>
+                {/* <h1 className={styles.title}>About</h1> */}
             
             </div>
             <div className={styles.box}>
