@@ -137,7 +137,7 @@ width: 100%;
    align-items: center;
   
    box-sizing: border-box;
-   height: 700px;
+   height: auto;
   }
   .content{
     /* margin-left: 5%; */
