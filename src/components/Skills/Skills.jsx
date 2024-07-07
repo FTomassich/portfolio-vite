@@ -87,9 +87,14 @@ const Skills = () => {
         <div className={styles.item}>
           <h2 className={styles.h2}>FRONT-END</h2>
           <h3 className={styles.h3}>HTML / CSS / REACT / REDUX</h3>
-          <strong className={styles.strong}>Como desarrollador frontend, disfruto creando interfaces de usuario intuitivas y creativas con HTML y React. 
-            Tengo experiencia en:
-            Me esfuerzo para que mis sitios sean responsivos y se adapten a distintos dispositivos. Tengo experiencia en desarrollar componentes avanzados como formularios controlados para creación de productos, inicio de sesión, registro de usuarios y recuperación de contraseñas. Utilizo Redux para la gestión del estado y estilizo componentes con CSS, Bootstrap y preprocesadores como Less. También tengo experiencia en la integración de APIs RESTful, la implementación de operaciones asíncronas con JavaScript, y la gestión de contenido multimedia con Cloudinary. Mi enfoque combina estética y funcionalidad para lograr productos web atractivos y altamente usables.</strong>
+          <strong className={styles.strong}>
+  Como desarrollador frontend, disfruto creando interfaces de usuario intuitivas y creativas con HTML y React.<br />
+  Tengo experiencia en:<br />
+  Me esfuerzo para que mis sitios sean responsivos y se adapten a distintos dispositivos. Tengo experiencia en desarrollar componentes avanzados como formularios controlados para creación de productos, inicio de sesión, registro de usuarios y recuperación de contraseñas.<br />
+  Utilizo Redux para la gestión del estado y estilizo componentes con CSS, Bootstrap y preprocesadores como Less.<br />
+  También tengo experiencia en la integración de APIs RESTful, la implementación de operaciones asíncronas con JavaScript, y la gestión de contenido multimedia con Cloudinary.<br />
+  Mi enfoque combina estética y funcionalidad para lograr productos web atractivos y altamente usables.
+</strong>
         
         </div>
         <div className={styles.item}>
