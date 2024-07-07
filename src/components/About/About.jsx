@@ -6,7 +6,7 @@ const About = () => {
     return (
         <section className={styles.container}>
             <div className={styles.duo}>
-            <img className={styles.alien} src={alien} alt="alien" />
+            {/* <img className={styles.alien} src={alien} alt="alien" /> */}
                 <h1 className={styles.title}>About</h1>
             
             </div>
