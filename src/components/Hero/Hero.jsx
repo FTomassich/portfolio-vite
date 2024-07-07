@@ -1,7 +1,7 @@
 
 import styles from './Hero.module.css';
 
-import atron from "../../assets/atron.png";
+// import atron from "../../assets/atron.png";
 import fondo from "../../assets/fondo.jpg"
 
 
@@ -15,7 +15,7 @@ const Hero = () => {
       </div>
       
       <div className={styles.contImage}>
-        <img src={atron} alt='Hero image of me' className={styles.heroImg} />
+        {/* <img src={atron} alt='Hero image of me' className={styles.heroImg} /> */}
         <a href="mailto:francotomassich@gmail.com" className={styles.contactBtn}>Contact me</a>
       </div>
      
