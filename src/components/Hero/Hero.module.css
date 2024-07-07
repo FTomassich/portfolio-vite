@@ -65,8 +65,8 @@ width: 100%;
     justify-content: center;
     align-items: center;
     width: 100%;
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 40px;
+    font-weight: 750;
     font-family: var(--font-roboto);
      
     background: linear-gradient(
@@ -147,9 +147,6 @@ width: 100%;
     justify-content: center;
    padding: 25px;
    box-sizing: border-box;
-   
-   
- 
   }
   .title{
     flex-direction: column;
@@ -162,7 +159,10 @@ width: 100%;
   .heroImg{
     width: 300px;
   }
-  
+  .description{
+    font-size: 20px;
+    font-weight: 400;
+  }
   
 }
 
