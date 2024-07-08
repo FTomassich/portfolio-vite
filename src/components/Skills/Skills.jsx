@@ -93,7 +93,6 @@ const Skills = () => {
             -Diseños web responsivos estilizados con CSS y preprocesadores como Less.<br />
             -Empleo de Redux para la gestión del estado.<br />
             <br />
-            
             -Integración de APIs RESTful, mediante operaciones asíncronas con JavaScript<br />
             <br />
             -Gestión de contenido multimedia con Cloudinary.<br />
