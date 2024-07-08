@@ -92,7 +92,7 @@ const Skills = () => {
             -Desarrollo de componentes avanzados como formularios controlados para creación de productos, inicio de sesión, registro de usuarios y recuperación de contraseñas.<br />
             -Diseños web responsivos estilizados con CSS y preprocesadores como Less.<br />
             -Empleo de Redux para la gestión del estado<br />
-            -Integración de APIs RESTful, con implementación de operaciones asíncronas con JavaScript<br />
+            -Integración de APIs RESTful, mediante operaciones asíncronas con JavaScript<br />
             -Gestión de contenido multimedia con Cloudinary.<br />
           </strong>
 
