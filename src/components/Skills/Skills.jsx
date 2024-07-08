@@ -90,11 +90,11 @@ const Skills = () => {
           <strong className={styles.strong}>
             Como desarrollador frontend, disfruto creando interfaces de usuario funcionales y creativas. Mi experiencia combina:<br />
             <br />
-            -Desarrollo de interfaces escalables y componentes "smart" con <strong>HTML</strong> y <strong>React</strong><br />
+            -Desarrollo de interfaces escalables y componentes "smart" con HTML y React<br />
             <br />
-            -Diseños web responsivos estilizados con <strong>CSS</strong> y preprocesadores como Less.<br />
+            -Diseños web responsivos estilizados con CSS y preprocesadores como Less.<br />
             <br />
-            -Manejo de <strong>Redux</strong> para la gestión del estado.<br />
+            -Manejo de Redux para la gestión del estado.<br />
             <br />
             -Integración de APIs RESTful, mediante operaciones asíncronas con JavaScript<br />
             <br />
