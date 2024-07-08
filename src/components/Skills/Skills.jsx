@@ -88,13 +88,13 @@ const Skills = () => {
           <h2 className={styles.h2}>FRONT-END</h2>
           <h3 className={styles.h3}>HTML / CSS / REACT / REDUX</h3>
           <strong className={styles.strong}>
-            Como desarrollador frontend, disfruto creando interfaces de usuario intuitivas y creativas con HTML y React. Mi experiencia combina:<br />
+            Como desarrollador frontend, disfruto creando interfaces de usuario funcionales y creativas. Mi experiencia combina:<br />
             <br />
-            -Desarrollo de componentes avanzados como formularios controlados para creación de productos, inicio de sesión, registro de usuarios y recuperación de contraseñas.<br />
+            -Desarrollo de interfaces escalables y componentes "smart" con <strong>HTML</strong> y <strong>React</strong><br />
             <br />
-            -Diseños web responsivos estilizados con CSS y preprocesadores como Less.<br />
+            -Diseños web responsivos estilizados con <strong>CSS</strong> y preprocesadores como Less.<br />
             <br />
-            -Empleo de Redux para la gestión del estado.<br />
+            -Manejo de <strong>Redux</strong> para la gestión del estado.<br />
             <br />
             -Integración de APIs RESTful, mediante operaciones asíncronas con JavaScript<br />
             <br />
