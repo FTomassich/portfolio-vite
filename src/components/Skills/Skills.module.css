@@ -47,11 +47,20 @@
     height: 200px;
     width: 100%;
     align-items: center;
-    font-size: 100px;
+    /* font-size: 100px; */
+    font-size: 2rem;
+  position: relative;
+  left: -100%;
+  transition: left 0.5s, font-size 0.3s, color 0.3s;
      
     flex-direction: column;
     justify-content: center;
 }
+.title.scrolled {
+    left: 0;
+    font-size: 1.5rem;
+    color: #333;
+  }
 
 .icon{
     width: 100px;
@@ -128,6 +137,7 @@
         margin-top: 20px;
         font-size: 70px;
         height: 150px;
+        
         }
 
         .techList{
