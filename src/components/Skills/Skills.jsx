@@ -95,6 +95,7 @@ const Skills = () => {
             <br />
             
             -Integración de APIs RESTful, mediante operaciones asíncronas con JavaScript<br />
+            <br />
             -Gestión de contenido multimedia con Cloudinary.<br />
           </strong>
 
