@@ -85,7 +85,7 @@
         margin-top: 20px;
         font-size: 80px;
         height: 150px;
-        margin-left: 7%;
+        /* margin-left: 7%; */
         }
         .strong{
             font-family: var(--font-roboto);
