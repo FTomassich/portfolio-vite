@@ -1,21 +1,24 @@
 
 .slider{
     box-sizing: border-box;
-    padding: 10px;
+    padding: 20px;
+    
     width: 80%;
     height: 400px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:space-between;
+    
     align-items: center;
     
     background-color: blue;
 }
 .group{
     padding: 20px;
+    
     background-color: var(--color-secondary);
     height: auto;
-   
+ width: 200px;  
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,6 +40,11 @@
     align-content: center;
 }
 
+.slider .slick-slide {
+    padding: 0 10px; /* Espacio horizontal entre los slides */
+}
+
+
 
 @media only screen and (max-width: 830px) {
     
@@ -54,7 +62,8 @@
             align-content: center;
         }
 
+        
        
-
     
     }
+    

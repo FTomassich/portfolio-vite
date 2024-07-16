@@ -14,6 +14,7 @@ const CustomSlider = () => {
         slidesToScroll: 1,
         draggable: true, // Permite arrastrar con el mouse
         initialSlide: 0, // Inicia en el primer slide
+        
         responsive: [
             {
                 breakpoint: 1024,
