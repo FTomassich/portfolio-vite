@@ -4,3 +4,7 @@
     padding: 0;
     font-family: "Outfit", Arial, Helvetica, sans-serif;
 }
+
+.slick-slide > div {
+    margin: 0 10px;
+}
