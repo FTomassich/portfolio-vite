@@ -15,10 +15,9 @@
 }
 .group{
     padding: 20px;
-    
     background-color: var(--color-secondary);
     height: auto;
- width: 200px;  
+    width: 200px;  
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,7 +28,6 @@
 }
 
 .strong {
-      
     height: auto;
     font-size: 18px;
     font-family: var(--font-roboto);
@@ -43,8 +41,6 @@
 .slider .slick-slide {
     padding: 0 10px; /* Espacio horizontal entre los slides */
 }
-
-
 
 @media only screen and (max-width: 830px) {
     
