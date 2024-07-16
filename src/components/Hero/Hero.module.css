@@ -66,8 +66,9 @@ width: 100%;
     align-items: center;
     width: 100%;
     font-size: 40px;
-    font-weight: 750;
+    font-weight: 400;
     font-family: var(--font-roboto);
+
      
     background: linear-gradient(
         90deg,
