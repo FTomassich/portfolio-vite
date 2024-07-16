@@ -40,7 +40,7 @@
 
 .techList li {
     text-decoration: none;
-    list-style: none; /* Quita los puntos de la lista */
+    list-style: none; 
 }
 .title{
     display: flex;
@@ -111,6 +111,7 @@
     align-items: center;
     align-content: center;
     text-align: justify;
+    font-weight: 300;
 }
 
 
