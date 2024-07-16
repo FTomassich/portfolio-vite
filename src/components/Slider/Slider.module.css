@@ -11,7 +11,7 @@
     
     align-items: center;
     
-    background-color: blue;
+    /* background-color: blue; */
 }
 .group{
     padding: 20px;
@@ -43,7 +43,6 @@
 }
 
 @media only screen and (max-width: 830px) {
-    
         .strong{
             
             font-size: 12px;
