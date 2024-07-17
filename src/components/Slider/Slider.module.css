@@ -2,13 +2,13 @@
 .slider{
     box-sizing: border-box;
     padding: 20px;
-    
+    /* margin: 0 auto; */
     width: 80%;
     height: 400px;
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-    
+    align-content: center;
     align-items: center;
     
     /* background-color: blue; */
@@ -25,6 +25,8 @@
     text-align:justify;
     border-radius: 5px;
     border: solid 2px yellowgreen;
+    box-shadow: 4px 3px 4px 0 rgba(154, 205, 50, 0.5); /* sombra solo en el lado derecho */
+
 }
 
 .strong {
@@ -38,8 +40,10 @@
     align-content: center;
 }
 
-.slider .slick-slide {
-    padding: 0 10px; /* Espacio horizontal entre los slides */
+.slick-slide {
+    display: flex;
+    justify-content: center; /* Centrar el contenido horizontalmente */
+    align-items: center; /* Centrar el contenido verticalmente */
 }
 
 @media only screen and (max-width: 830px) {
