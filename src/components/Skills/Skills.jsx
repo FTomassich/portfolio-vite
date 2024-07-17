@@ -90,7 +90,7 @@ const Skills = () => {
           <strong className={styles.strong}>
             Como desarrollador frontend, disfruto creando interfaces de usuario funcionales y creativas. Mi experiencia combina:<br />
             <br />
-            -Desarrollo de interfaces escalables y componentes "smart" con HTML y React<br />
+            -Desarrollo de aplicaciones escalables utilizando HTML y React<br />
             <br />
             -Diseños web responsivos estilizados con CSS y preprocesadores como Less.<br />
             <br />
@@ -105,7 +105,19 @@ const Skills = () => {
         <div className={styles.item}>
           <h2 className={styles.h2}>BACK-END</h2>
           <h3 className={styles.h3}>EXPRESS/POSTGRESQL/SEQUELIZE</h3>
-          <strong className={styles.strong}>Tengo experiencia en la diagramación y gestión de bases de datos eficientes con PostgreSQL. He desarrollado servidores utilizando Express.js para aplicaciones Node.js y tengo habilidades en el mapeo objeto-relacional con Sequelize ORM. Esto incluye la creación de relaciones entre tablas y la implementación de índices para mejorar el rendimiento. Además, tengo experiencia en la integración de APIs y la realización de fetching de datos. Esta combinación de habilidades me permite desarrollar soluciones backend robustas que soportan aplicaciones complejas y de alto rendimiento.</strong>
+          <strong className={styles.strong}>
+          Mi trayecto se orienta a desarrollar soluciones backend robustas que soportan aplicaciones complejas, con un buen rendimiento. Mi experiencia incluye:
+          <br />
+          <br />
+            -Diagramación y gestión de bases de datos eficientes con PostgreSQL. <br />
+            <br />
+            -Desarrollo de servidores en Express.js para aplicaciones Node.js.<br />
+            <br />
+            -Mapeo objeto-relacional con Sequelize ORM, creación de relaciones entre tablas e implementación de índices para mejorar el rendimiento.<br />
+            <br /> 
+            -Integración de APIs con fetching de datos. <br />
+            <br />
+            </strong>
 
         </div>
       </div>
