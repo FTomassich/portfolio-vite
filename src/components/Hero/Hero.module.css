@@ -50,12 +50,7 @@ width: 100%;
     font-weight: 900;
     margin-bottom: 33px;
     font-family: var(--font-roboto);
-    background: linear-gradient(
-        90deg,
-        rgba(255,255,255,1) 70%,
-        rgba(255, 255, 255, 0) 120%
-    );
-    -webkit-text-fill-color: transparent;
+    
     -webkit-background-clip: text;
   }
 
@@ -68,15 +63,11 @@ width: 100%;
     font-size: 40px;
     font-weight: 400;
     font-family: var(--font-roboto);
-    background: linear-gradient(
-        90deg,
-        rgba(255, 255, 255, 1) 70%,
-        rgba(255, 255, 255, 0) 120%
-    );
+    
      /* Ajusta el relleno según tus necesidades */
     background-clip: text; /* Aplicar el degradado al texto */
     -webkit-background-clip: text; /* Para navegadores webkit como Safari */
-    color: transparent; 
+    
   }
 
   .contactBtn{
