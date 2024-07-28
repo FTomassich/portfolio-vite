@@ -14,7 +14,7 @@ const CustomSlider = () => {
         slidesToScroll: 1,
         draggable: true, // Permite arrastrar con el mouse
         initialSlide: 0, // Inicia en el primer slide
-        
+
         responsive: [
             {
                 breakpoint: 1024,
@@ -37,7 +37,7 @@ const CustomSlider = () => {
 
     return (
         <Slider {...settings} className={styles.slider}>
-           
+
             <div className={styles.group}>
                 <strong className={styles.strong}>
                     👨‍💻 Soy Full Stack Developer, recientemente egresado de Henry Bootcamp con una marcada orientación hacia el frontend. Disfruto aprendiendo y creando interfaces creativas, amigables e intuitivas para los usuarios, pero sobre todo FUNCIONALES!
@@ -58,11 +58,11 @@ const CustomSlider = () => {
                     🔋 Actualmente me encuentro disponible para emprender nuevos desafíos como desarrollador web. Aunque mis mayores fortalezas se encuentran del lado del front-end, actualmente también estoy interesado en fortalecer y aprender habilidades en back-end. Me interesan los procesos de registro y autenticación, y la protección de datos sensibles.
                 </strong>
             </div>
-            
+
 
         </Slider>
-        
-     
+
+
     );
 };
 
