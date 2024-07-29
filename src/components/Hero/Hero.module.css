@@ -26,7 +26,7 @@
   
   color: var(--color-text);
   z-index: 1;
-
+  
 }
 
 .contImage {
@@ -107,6 +107,7 @@
   font-weight: 900;
   margin-bottom: 33px;
   font-family: var(--font-roboto);
+ 
 
   -webkit-background-clip: text;
 }
@@ -163,6 +164,7 @@
   }
 
   .content {
+    
     /* margin-left: 5%; */
     display: flex;
     flex-direction: column;
@@ -170,11 +172,12 @@
     justify-content: center;
     padding: 25px;
     box-sizing: border-box;
+    
   }
 
   .title {
 
-    font-size: 35px;
+    font-size: 33px;
   }
 
   .heroImg {
