@@ -108,7 +108,7 @@ width: 100%;
     border-right: 4px solid;
     
 
-    animation: typing 4s steps(15),
+    animation: typing 4s steps(17),
     blink .5s infinite step-end alternate;
     overflow: hidden;
   }
