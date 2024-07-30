@@ -15,7 +15,8 @@
 }
 .group{
     padding: 20px;
-    background-color: var(--color-secondary);
+    background: rgba(255, 255, 255, 0.2); /* Ajusta la opacidad según lo necesario */
+    backdrop-filter: blur(7px); /* Ajusta el valor del desenfoque según lo necesario */
     height: 150px;
     width: 200px;  
     display: flex;
