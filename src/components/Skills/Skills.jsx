@@ -32,7 +32,7 @@ const Skills = () => {
   ];
 
   return (
-    <section className={styles.section} style={{ backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.5)), url(${nebula})` }}>
+    <section className={styles.section} style={{ backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(${nebula})` }}>
       <div >
         <h1 className={styles.title}>Tech Skills</h1>
       </div>
