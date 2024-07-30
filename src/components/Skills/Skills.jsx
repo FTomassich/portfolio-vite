@@ -12,6 +12,7 @@ import git from "../../assets/git.png";
 import vite from "../../assets/vite.png";
 import html from "../../assets/html.png";
 import sequelize from "../../assets/sequelize.png"
+import nebula from "../../assets/nebula.jpg"
 
 
 const Skills = () => {
@@ -31,7 +32,7 @@ const Skills = () => {
   ];
 
   return (
-    <section className={styles.section}>
+    <section className={styles.section} style={{ backgroundImage: `url(${nebula})` }}>
       <div >
         <h1 className={styles.title}>Tech Skills</h1>
       </div>

@@ -3,7 +3,7 @@
 
 .container {
   width: 100%;
-  background-image: url('../../assets/fondo.jpg');
+  /* background-image: url('../../assets/fondo.jpg'); */
   background-size: cover;
   position: relative;
   display: flex;
