@@ -89,6 +89,16 @@
         .box{
             grid-template-columns: 1fr;
         }
+
+        .subt{
+            width: 90%;
+            font-family: var(--font-roboto);
+                    font-size: 12px;
+                    font-weight: 300;
+                    align-items: center;
+    align-content: center;
+    text-align: justify;
+        }
         .group {
             width: 80vw;
             height: 30vh;
