@@ -6,8 +6,8 @@ import space12 from "../../assets/space12.jpg"
 const About = () => {
     return (
         <section className={styles.container} style={{ 
-            backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 1) 90%),linear-gradient(to top, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 1) 90%), 
-             url(${space12})
+            backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 1) 90%),linear-gradient(to top, rgba(0, 0, 0, 0) 65%, rgba(0, 0, 0, 1) 87%), radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 80%), 
+                         url(${space12})
             ` }}>
             <div className={styles.duo}>
                 <h1 className={styles.title}>About</h1>

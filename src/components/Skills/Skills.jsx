@@ -12,7 +12,7 @@ import git from "../../assets/git.png";
 import vite from "../../assets/vite.png";
 import html from "../../assets/html.png";
 import sequelize from "../../assets/sequelize.png"
-import nebula from "../../assets/nebula.jpg"
+import space11 from "../../assets/space11.jpg"
 
 
 const Skills = () => {
@@ -32,7 +32,11 @@ const Skills = () => {
   ];
 
   return (
-    <section className={styles.section} style={{ backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(${nebula})` }}>
+    <section className={styles.section} style={{ 
+      backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 1) 90%),linear-gradient(to top, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 1) 90%), radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 80%), 
+                        
+                        url(${space11})
+      `  }}>
       <div >
         <h1 className={styles.title}>Tech Skills</h1>
       </div>
