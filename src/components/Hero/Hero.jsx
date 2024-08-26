@@ -19,7 +19,7 @@ const Hero = () => {
 
       <div className={styles.contImage}>
         <img src={atron} alt='Hero image of me' className={styles.heroImg} />
-        <a href="mailto:francotomassich@gmail.com" className={styles.contactBtn}>Contact me</a>
+        <a href="mailto:francotomassich@gmail.com" className={styles.contactBtn}>Send E-Mail</a>
       </div>
 
 
