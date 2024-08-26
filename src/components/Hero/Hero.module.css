@@ -102,7 +102,7 @@
   display: block;
 
   
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   
   
@@ -120,7 +120,7 @@
   border-right: 4px solid;
 
 
-  animation: typing 4s steps(15),
+  animation: typing 4s steps(50),
     blink .5s infinite step-end alternate;
   overflow: hidden;
 }
@@ -195,6 +195,10 @@
   .contImage {
     justify-content: space-around;
     height: 400px;
+  }
+
+  .contactBtn{
+    font-size: 9px
   }
 
 }
