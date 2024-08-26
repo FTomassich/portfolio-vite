@@ -1,5 +1,10 @@
 @import "../../vars.css";
 
+
+.cohete{
+    margin-left: 50px;
+    width: 150px;
+}
 .navbar {
     background-color: black;
     position: relative;
@@ -101,5 +106,8 @@
     .menuOpen {
         display: flex;
         z-index: 1;
+    }
+    .cohete{
+        margin-left: 30px;
     }
 }
