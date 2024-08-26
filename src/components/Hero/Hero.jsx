@@ -4,6 +4,7 @@ import styles from './Hero.module.css';
 import atron from "../../assets/atron.png";
 import fondo from "../../assets/fondo.jpg"
 import spacex from "../../assets/spacex.jpg"
+import TypingEffectElement from '@github/typing-effect-element';
 
 
 
@@ -13,7 +14,18 @@ const Hero = () => {
       backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0) 85%, rgba(0, 0, 0, 1) 100%),linear-gradient(to top, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 1) 90%), radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 80%), 
                          url(${spacex})`}}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Franco Tomassich</h1>
+        <typing-effect
+        class="title" 
+        
+        data-lines='
+    ["Franco", "Tomassich"]
+    '
+    >
+<span data-target="typing-effect.content"  ></span>
+<span data-target="typing-effect.cursor"></span>
+
+    </typing-effect>
+      
         <p className={styles.description}>Desarrollador Full stack con experiencia en React, Redux, Express, Sequelize, PostgreSQL 🚀</p>
       </div>
 
