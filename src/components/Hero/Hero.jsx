@@ -15,6 +15,7 @@ const Hero = () => {
                          url(${spacex})`}}>
       <div className={styles.content}>
         <typing-effect
+        data-character-delay="130"
         class="title" 
         
         data-lines='
