@@ -66,6 +66,8 @@
 @media screen and (max-width: 830px) {
     .navbar {
         align-items: flex-start;
+        height: 85px;
+    
     }
 
     .menu {
@@ -109,5 +111,6 @@
     }
     .cohete{
         margin-left: 30px;
+        
     }
 }
