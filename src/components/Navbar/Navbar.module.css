@@ -2,7 +2,7 @@
 
 
 .cohete12{
-    margin-left: 50px;
+    margin-left: 20px;
     width: 150px;
     animation-name: floating;
   animation-duration: 4s;
@@ -132,8 +132,9 @@
         display: flex;
         z-index: 1;
     }
-    .cohete{
-        margin-left: 30px;
+    .cohete12 {
+        width: 130px;
+        
         
     }
 }
