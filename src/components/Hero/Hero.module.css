@@ -31,7 +31,7 @@
   justify-content: space-around;
 font-size: 85px; 
 font-weight: 700; 
-  color: rgb(8, 202, 157);
+  color: var(--color-text);
   z-index: 1;
   
 }
