@@ -21,7 +21,7 @@ const Hero = () => {
         class="title" 
         
         data-lines='
-    ["Franco", "Tomassich"]
+    ["Franco","Tomassich"]
     '
     >
 <span data-target="typing-effect.content"  ></span>

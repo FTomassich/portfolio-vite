@@ -31,7 +31,7 @@
   justify-content: space-around;
 font-size: 85px; 
 font-weight: 700; 
-  color: var(--color-text);
+  color: rgb(8, 202, 157);
   z-index: 1;
   
 }
@@ -54,7 +54,7 @@ font-weight: 700;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  
+  color: var(--color-text);
 
   width: 80%;
   font-size: 40px;
@@ -104,6 +104,7 @@ font-weight: 700;
   flex-direction: column;
   align-items: center;
   margin-bottom: 33px;
+  color:blue;
 }
 
 
