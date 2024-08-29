@@ -1,7 +1,7 @@
 
 import styles from './Hero.module.css';
 
-import atron from "../../assets/atron.png";
+import atron1 from "../../assets/atron1.png";
 import fondo from "../../assets/fondo.jpg"
 import spacex from "../../assets/spacex.jpg"
 import TypingEffectElement from '@github/typing-effect-element';
@@ -33,7 +33,7 @@ const Hero = () => {
       </div>
 
       <div className={styles.contImage}>
-        <img src={atron} alt='Hero image of me' className={styles.heroImg} />
+        <img src={atron1} alt='Hero image of me' className={styles.heroImg} />
         <a href="mailto:francotomassich@gmail.com" className={styles.contactBtn}>Send E-Mail</a>
       </div>
 
