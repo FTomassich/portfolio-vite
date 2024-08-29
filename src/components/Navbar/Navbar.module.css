@@ -1,7 +1,7 @@
 @import "../../vars.css";
 
 
-.cohete12{
+.cohete13{
     margin-left: 20px;
     width: 150px;
     animation-name: floating;
@@ -132,7 +132,7 @@
         display: flex;
         z-index: 1;
     }
-    .cohete12 {
+    .cohete13 {
         width: 130px;
         
         

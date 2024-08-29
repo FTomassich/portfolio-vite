@@ -3,12 +3,12 @@ import styles from './Navbar.module.css';
 
 import menuIcon from '../../assets/menuIcon.png';
 import menuClose from '../../assets/menuClose.png';
-import cohete12 from '../../assets/cohete12.png';
+import cohete13 from '../../assets/cohete13.png';
 const Navbar = () => {
 const [menuOpen, setMenuOpen]=useState(false)
   return (
     <nav className={styles.navbar}>
-      <img className={styles.cohete12} src={cohete12} alt="" />
+      <img className={styles.cohete13} src={cohete13} alt="" />
       <div className={styles.menu}>
         <img className={styles.menuBtn} 
         src={
