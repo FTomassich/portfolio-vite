@@ -56,22 +56,46 @@
 .container {
     box-sizing: border-box;
     display: flex;
-    gap: 8px;
-    padding: 10px;
+    gap: 30px;
+    padding: 30px;
     width: 100%;
     
     flex-wrap: wrap;
 }
 
 .item {
-    background-color: rgb(39, 38, 38);
+    backdrop-filter: blur(7px); 
+    border-radius: 5%;
+    border: solid 1px blueviolet;
+    padding: 20px;
     font-size: 12px;
     display: flex;
-    height: 220px;
+    flex-direction: column;
+    height: 350px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-grow: 1;
     flex-basis: 230px;
+}
+
+ .img {
+    
+    width: 100%;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+    border-radius: 5%;
+    
+}
+
+.sub{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
 }
 
 @media only screen and (max-width: 830px) {
