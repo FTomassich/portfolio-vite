@@ -5,7 +5,8 @@ import Navbar from "./components/Navbar/Navbar";
 import Skills from "./components/Skills/Skills";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
-import spacex from './assets/spacex.jpg';
+
+
 function App() {
 
   return (
