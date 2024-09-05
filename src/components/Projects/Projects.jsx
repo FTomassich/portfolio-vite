@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../Projects/Projects.module.css';
-import space2020 from "../../assets/space2020.jpg";
+import about from "../../assets/about.jpg";
 import dogy from '../../assets/dogy.png';
 
 
@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <section className={styles.section} style={{
       backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 1) 90%),linear-gradient(to top, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 1) 80%), radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 80%), 
-                          url(${space2020})
+                          url(${about})
         `  }}>
 
       <h1 className={styles.title}>Projects</h1>
