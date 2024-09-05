@@ -6,6 +6,8 @@
   
   /* background-image: url('../../assets/fondo.jpg'); */
   background-size: cover;
+  background-position: center;
+    background-repeat: no-repeat;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -47,8 +49,6 @@ font-weight: 700;
   align-items: center;
 }
 
-
-
 .description {
   display: flex;
   flex-direction: row;
@@ -61,7 +61,6 @@ font-weight: 700;
   font-weight: 400;
   font-family: var(--font-roboto);
   text-align: justify;
-
 }
 
 .contactBtn {
