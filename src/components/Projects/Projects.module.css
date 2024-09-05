@@ -72,7 +72,6 @@
 .img{
     width: 90%;
     height: 270px;
-    aspect-ratio: 4/3;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
