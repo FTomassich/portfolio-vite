@@ -1,14 +1,15 @@
 import React from 'react';
 import styles from '../Projects/Projects.module.css';
-import about from "../../assets/about.jpg";
-import dogy from '../../assets/dogy.png';
+import fondoxx from "../../assets/fondoxx.jpg";
+import dogggg from '../../assets/dogggg.png';
+import imagencita from '../../assets/imagencita.jpeg';
 
 
 const Projects = () => {
   return (
     <section className={styles.section} style={{
       backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 1) 90%),linear-gradient(to top, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 1) 80%), radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 80%), 
-                          url(${about})
+                          url(${fondoxx})
         `  }}>
 
       <h1 className={styles.title}>Projects</h1>
@@ -17,13 +18,16 @@ const Projects = () => {
     
       <div className={styles.item}>
         <h1 className={styles.sub}>Find Dogs App</h1>
-        <img 
-        className={styles.img}
-        src={dogy} alt="" />
+        <div className={styles.img} style={{
+      backgroundImage: `url(${dogggg})
+        `  }}></div>
       </div>
       
       <div className={styles.item}>
-        2
+      <h1 className={styles.sub}>Innovatech | e-commerce</h1>
+        <div className={styles.img} style={{
+      backgroundImage: `url(${imagencita})
+        `  }}></div>
       </div>
       <div className={styles.item}>
         3        </div>
