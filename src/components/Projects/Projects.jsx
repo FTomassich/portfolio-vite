@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../Projects/Projects.module.css';
 import space2020 from "../../assets/space2020.jpg";
-import dogggg from '../../assets/dogggg.png';
+import dogy from '../../assets/dogy.png';
 
 
 const Projects = () => {
@@ -19,7 +19,7 @@ const Projects = () => {
         <h1 className={styles.sub}>Find Dogs App</h1>
         <img 
         className={styles.img}
-        src={dogggg} alt="" />
+        src={dogy} alt="" />
       </div>
       
       <div className={styles.item}>
