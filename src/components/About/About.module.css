@@ -8,6 +8,9 @@
     align-items: center;
     border-top: solid 15px black;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 .title{
