@@ -7,10 +7,7 @@ import imagencita from '../../assets/imagencita.jpeg';
 
 const Projects = () => {
   return (
-    <section className={styles.section} style={{
-      backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 1) 90%),linear-gradient(to top, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 1) 80%), radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 1) 80%), 
-                          url(${fondoxx})
-        `  }}>
+    <section className={styles.section} >
 
       <h1 className={styles.title}>Projects</h1>
       <div className={styles.container}>

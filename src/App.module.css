@@ -1,14 +1,17 @@
 @import "./vars.css";
 
 .App{
-    background-color: var(--color-primary);
+    
     width: 100%;
     height:auto;
     color: white;
+    background-size: cover;    
+    background-position: center;
+    background-repeat: no-repeat;
 
-  
-  
-    
-   
-    
+    background-attachment: fixed;  /* Esto hace que el fondo sea inmutable */
+    background-size: cover;  /* Asegura que el fondo cubra toda la pantalla */
+    background-position: center;
+    height: 100vh; /* Para asegurar que tome toda la pantalla */
+    overflow: auto; /* Para permitir el scroll */
 }
