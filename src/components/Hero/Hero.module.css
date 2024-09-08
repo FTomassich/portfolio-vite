@@ -52,7 +52,6 @@ font-weight: 700;
   justify-content: center;
   align-items: center;
   color: var(--color-text);
-
   width: 80%;
   font-size: 40px;
   font-weight: 400;
@@ -61,23 +60,44 @@ font-weight: 700;
 }
 
 .group{
-  width: 100%;
+  width: 300px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-
 }
 
 .contactBtn {
-  
   display: flex;
-  width: 40px;
-  
+  width: 45px;
   justify-content: center;
   align-items: center;
- 
 }
+.contactBtn:hover {
+  transform: translateY(-5px); 
+}
+
+.githubBtn{
+  display: flex;
+  width: 35px;
+  justify-content: center;
+  align-items: center;
+}
+.githubBtn:hover {
+  transform: translateY(-5px); 
+}
+
+
+.linkedinBtn{
+  display: flex;
+  width: 35px;
+  justify-content: center;
+  align-items: center;
+}
+.linkedinBtn:hover {
+  transform: translateY(-5px); 
+}
+
 
 
 
