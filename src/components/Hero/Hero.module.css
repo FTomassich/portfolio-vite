@@ -14,10 +14,7 @@
   align-items: center;
   align-content: center;
   justify-content: center;
- 
- 
-  
- 
+
   /* height: 600px; */
   height: 590px;
 }
@@ -63,22 +60,23 @@ font-weight: 700;
   text-align: justify;
 }
 
-.contactBtn {
-  font-size: 13px;
+.group{
+  width: 100%;
   display: flex;
-  width: 15%;
-  height: 40px;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  align-content: center;
-  text-decoration: none;
-  background-color: var(--color-secondary);
-  color: var(--color-text);
-  border-radius: 100px;
+
+}
+
+.contactBtn {
   
-  /* padding: 17px 26px; */
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
-  border: solid 3px yellowgreen;
+  display: flex;
+  width: 40px;
+  
+  justify-content: center;
+  align-items: center;
+ 
 }
 
 

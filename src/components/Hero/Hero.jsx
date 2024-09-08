@@ -2,8 +2,7 @@
 import styles from './Hero.module.css';
 
 import atron1 from "../../assets/atron1.png";
-import fondo from "../../assets/fondo.jpg"
-import spacex from "../../assets/spacex.jpg"
+import mail from "../../assets/mail.png";
 import TypingEffectElement from '@github/typing-effect-element';
 
 const Hero = () => {
@@ -29,7 +28,13 @@ const Hero = () => {
 
       <div className={styles.contImage}>
         <img src={atron1} alt='Hero image of me' className={styles.heroImg} />
-        <a href="mailto:francotomassich@gmail.com" className={styles.contactBtn}>Send E-Mail</a>
+
+        <div className={styles.group}>
+        <a href="mailto:francotomassich@gmail.com" >
+          <img className={styles.contactBtn} src={mail} alt="" />
+        </a>
+        
+        </div>
       </div>
 
 
