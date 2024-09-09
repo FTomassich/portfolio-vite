@@ -77,10 +77,10 @@
     }
 
     .subt {
-        width: 90%;
+        width: 85%;
         font-family: var(--font-roboto);
         font-size: 18px;
-        font-weight: 300;
+        font-weight: 400;
         align-items: center;
         align-content: center;
         
