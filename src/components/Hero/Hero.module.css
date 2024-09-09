@@ -50,11 +50,12 @@ font-weight: 700;
   justify-content: center;
   align-items: center;
   color: var(--color-text);
-  width: 80%;
+  width: 85%;
   font-size: 40px;
   font-weight: 400;
   font-family: var(--font-roboto);
   text-align: justify;
+ 
 }
 
 .group{
@@ -182,7 +183,7 @@ font-weight: 700;
   }
 
   .description {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
   }
 
