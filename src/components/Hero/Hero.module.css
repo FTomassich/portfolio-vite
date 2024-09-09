@@ -109,7 +109,8 @@ font-weight: 700;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 60%, rgba(0, 0, 0, 0.5) 80%, transparent 100%);
+
 
 }
 
