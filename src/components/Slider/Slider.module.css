@@ -5,6 +5,7 @@
 .slider{
     box-sizing: border-box;
     padding: 20px;
+    
     width: 80%;
     height: 100%;
     margin-top: 20px;
@@ -30,7 +31,7 @@
     border-radius: 9px;
     border: solid 1px yellowgreen;
     
-    box-shadow: 5px 2px 1px rgba(154, 205, 50, 0.6);
+    box-shadow: 5px 2px 10px rgba(154, 205, 50, 0.3);
 }
 
 .strong {
