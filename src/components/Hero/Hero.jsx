@@ -14,7 +14,6 @@ const Hero = () => {
         <typing-effect
           data-character-delay="170"
           class="title"
-
           data-lines='
     ["Franco","Tomassich"]
     '
@@ -31,7 +30,7 @@ const Hero = () => {
         <img src={atron1} alt='Hero image of me' className={styles.heroImg} />
 
         <div className={styles.group}>
-          
+
           <a href="https://github.com/FTomassich">
             <img className={styles.githubBtn} src={gitt} alt="" />
           </a>
