@@ -1,36 +1,36 @@
-
+.slick-slide {
+    padding: 0 20px; 
+    box-sizing: border-box; 
+}
 .slider{
     box-sizing: border-box;
     padding: 20px;
-    /* margin: 0 auto; */
     width: 80%;
-    height: auto;
+    height: 100%;
     margin-top: 20px;
     margin-bottom: 40px;
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
     align-content: center;
     align-items: center;
-    
-    /* background-color: blue; */
 }
+
 .group{
     padding: 20px;
-     /* Ajusta la opacidad según lo necesario */
-    backdrop-filter: blur(2px); /* Ajusta el valor del desenfoque según lo necesario */
-    height: 230px;
-    width: 200px;  
+    backdrop-filter: blur(2px); 
+    height: 200px;
+     
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
     text-align:justify;
-    border-radius: 5px;
-    border: solid 2px yellowgreen;
-    box-shadow: 4px 3px 4px 0 rgba(154, 205, 50, 0.5); /* sombra solo en el lado derecho */
+    border-radius: 9px;
+    border: solid 1px yellowgreen;
     
+    box-shadow: 5px 2px 1px rgba(154, 205, 50, 0.6);
 }
 
 .strong {
@@ -46,11 +46,7 @@
     
 }
 
-.slick-slide {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-}
+
 
 @media only screen and (max-width: 830px) {
         .strong{
