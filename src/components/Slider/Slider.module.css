@@ -1,11 +1,17 @@
-.slick-slider {
-    padding: 0 20px; 
+.slick-slide {
+    
     box-sizing: border-box; 
-
+    padding-block: 10px;
+    
 }
+
+
+
+
 .slider{
     box-sizing: border-box;
     padding: 20px;
+  
     overflow: hidden;
     width: 80%;
     height: 100%;
@@ -19,7 +25,6 @@
 }
 
 .group{
-    
     padding: 20px;
     backdrop-filter: blur(2px); 
     height: 200px;
@@ -34,7 +39,7 @@
     border-radius: 9px;
     border: solid 1px yellowgreen;
     
-    box-shadow: 5px 2px 10px rgba(154, 205, 50, 0.3);
+    box-shadow: 5px 4px 7px rgba(154, 205, 50, 0.3);
 }
 
 .strong {
