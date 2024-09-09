@@ -1,8 +1,8 @@
 .slick-slide {
+    box-sizing: border-box;  
+    gap: 20px; 
     
-    box-sizing: border-box; 
-    padding-block: 10px;
-    
+
 }
 
 
@@ -11,8 +11,8 @@
 .slider{
     box-sizing: border-box;
     padding: 20px;
-  
-    overflow: hidden;
+    
+    
     width: 80%;
     height: 100%;
     margin-top: 20px;
