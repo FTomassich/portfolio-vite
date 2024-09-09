@@ -53,6 +53,18 @@
     animation-fill-mode: both;
 }
 
+.subt {
+    width: 85%;
+    font-family: var(--font-roboto);
+    font-size: 30px;
+    font-weight: 400;
+    align-items: center;
+    align-content: center;
+    padding: 25px;
+box-sizing: border-box;
+    
+}
+
 
 
 @media only screen and (max-width: 830px) {
