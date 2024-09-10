@@ -25,7 +25,7 @@ const Projects = () => {
         <div className={styles.item}>
           4
         </div>
-        <div className={styles.space}></div>
+       
       </div>
 
     </section >
