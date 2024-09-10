@@ -152,8 +152,5 @@ aspect-ratio: 4/3;
         animation-range: entry 25% cover 50%;
         animation-fill-mode: both;
     }
-    .space{
-        height: 100px;
-        width: 100%;
-    }
+    
 }
