@@ -16,7 +16,6 @@ const Projects = () => {
           <h1 className={styles.sub}>Find Dogs App</h1>
           <img src={dogsi} className={styles.imgDogs} alt="" />
         </div>
-
         <div className={styles.item}>
           <h1 className={styles.sub}>Innovatech | e-commerce</h1>
           <img src={go} alt="" className={styles.img}/>
@@ -26,7 +25,7 @@ const Projects = () => {
         <div className={styles.item}>
           4
         </div>
-
+        <div className={styles.space}></div>
       </div>
 
     </section >
