@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../Projects/Projects.module.css';
 import fondoxx from "../../assets/fondoxx.jpg";
-import dogggg from '../../assets/dogggg.png';
+
 import go from '../../assets/go.png';
 import dogsi from '../../assets/dogsi.png';
 
