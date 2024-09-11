@@ -38,28 +38,40 @@ const Projects = () => {
     };
   }, []);
   return (
-    <section className={styles.section} >
-
+    <section className={styles.section}>
       <h1 className={styles.title}>Projects</h1>
       <div className={styles.container}>
+        
         <div className={styles.item}>
-          <h1 className={styles.sub}>Find Dogs App</h1>
-          <img src={dogsi} className={styles.imgDogs} alt="" />
+          <div className={styles.innerItem}>
+            <div className={styles.front}>
+              <h1 className={styles.sub}>Find Dogs App</h1>
+              <img src={dogsi} className={styles.imgDogs} alt="Find Dogs App" />
+            </div>
+            <div className={styles.back}>
+              <p className={styles.description}>An app to find dogs by breed with additional details like temperament, origin, and more.</p>
+            </div>
+          </div>
         </div>
-        <div className={styles.item}>
-          <h1 className={styles.sub}>Innovatech | e-commerce</h1>
-          <img src={go} alt="" className={styles.img}/>
-        </div>
-        <div className={styles.item}>
-          3        </div>
-        <div className={styles.item}>
-          4
-        </div>
-       
-      </div>
 
-    </section >
+        <div className={styles.item}>
+          <div className={styles.innerItem}>
+            <div className={styles.front}>
+              <h1 className={styles.sub}>Innovatech | e-commerce</h1>
+              <img src={go} alt="Innovatech e-commerce" className={styles.img}/>
+            </div>
+            <div className={styles.back}>
+              <p className={styles.description}>An e-commerce platform for tech products, providing a seamless shopping experience.</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Agrega más tarjetas de la misma manera */}
+      </div>
+    </section>
   )
 }
+
+
 
 export default Projects
