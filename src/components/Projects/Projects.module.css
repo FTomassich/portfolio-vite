@@ -148,6 +148,25 @@ height: 100%;
     font-size: 20px;
 }
 
+a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: inherit; 
+}
+
+.btn{
+    width: 20px;
+    height: 20px;
+}
+
+.group{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 @media only screen and (max-width: 830px) {
     .title {
         font-size: 70px;

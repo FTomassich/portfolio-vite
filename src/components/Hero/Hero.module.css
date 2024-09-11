@@ -3,11 +3,11 @@
 
 .container {
   width: 100%;
-  
+
   /* background-image: url('../../assets/fondo.jpg'); */
   background-size: cover;
   background-position: center;
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -26,17 +26,14 @@
   align-items: center;
   align-content: center;
   justify-content: space-between;
-font-size: 85px; 
-font-weight: 700; 
+  font-size: 85px;
+  font-weight: 700;
   color: var(--color-text);
   z-index: 1;
-  
 }
 
 .contImage {
-  
   width: 100%;
-  /* margin-bottom: 40px; */
   height: 430px;
   display: flex;
   flex-direction: column;
@@ -54,10 +51,9 @@ font-weight: 700;
   font-size: 40px;
   font-weight: 400;
   font-family: var(--font-roboto);
-  
 }
 
-.group{
+.group {
   width: 300px;
   display: flex;
   flex-direction: row;
@@ -71,29 +67,32 @@ font-weight: 700;
   justify-content: center;
   align-items: center;
 }
+
 .contactBtn:hover {
-  transform: translateY(-5px); 
+  transform: translateY(-5px);
 }
 
-.githubBtn{
+.githubBtn {
   display: flex;
   width: 35px;
   justify-content: center;
   align-items: center;
 }
+
 .githubBtn:hover {
-  transform: translateY(-5px); 
+  transform: translateY(-5px);
 }
 
 
-.linkedinBtn{
+.linkedinBtn {
   display: flex;
   width: 35px;
   justify-content: center;
   align-items: center;
 }
+
 .linkedinBtn:hover {
-  transform: translateY(-5px); 
+  transform: translateY(-5px);
 }
 
 .heroImg {
@@ -115,7 +114,7 @@ font-weight: 700;
   flex-direction: column;
   align-items: center;
   margin-bottom: 33px;
-  color:blue;
+  color: blue;
 }
 
 
@@ -153,8 +152,8 @@ font-weight: 700;
   }
 
   .content {
-    font-size: 55px; 
-font-weight: 700; 
+    font-size: 55px;
+    font-weight: 700;
     /* margin-left: 5%; */
     display: flex;
     flex-direction: column;
@@ -164,9 +163,10 @@ font-weight: 700;
     box-sizing: border-box;
   }
 
-  .description{
+  .description {
     margin-top: 10px;
   }
+
   .heroImg {
     width: 300px;
   }
@@ -181,7 +181,7 @@ font-weight: 700;
     height: 400px;
   }
 
-  .contactBtn{
+  .contactBtn {
     font-size: 9px
   }
 
