@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import styles from '../Projects/Projects.module.css';
 import fondoxx from "../../assets/fondoxx.jpg";
 
@@ -7,6 +7,36 @@ import dogsi from '../../assets/dogsi.png';
 
 
 const Projects = () => {
+  useEffect(() => {
+    const observerOptions = {
+      root: null, // Use the viewport as the root
+      rootMargin: '0px',
+      threshold: 0.4 // Trigger the callback when 30% of the element is visible
+    };
+
+    const handleIntersect = (entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add(styles.visible);
+        } else {
+          entry.target.classList.remove(styles.visible);
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(handleIntersect, observerOptions);
+    const items = document.querySelectorAll(`.${styles.item}`);
+
+    items.forEach(item => {
+      observer.observe(item);
+    });
+
+    return () => {
+      items.forEach(item => {
+        observer.unobserve(item);
+      });
+    };
+  }, []);
   return (
     <section className={styles.section} >
 

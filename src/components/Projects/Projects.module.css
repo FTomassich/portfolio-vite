@@ -56,6 +56,8 @@
     width: 100%;
 flex-wrap: wrap;
 height: 100%;
+
+
 }
 
 .item {
@@ -69,6 +71,7 @@ height: 100%;
     flex-basis: 220px;
     align-items: center;
     justify-content: space-evenly;
+    
 }
 
 .img {
@@ -102,49 +105,41 @@ height: 100%;
     .title {
         font-size: 70px;
     }
-
-/* 
-    @keyframes slideLeft {
-        from {
-            opacity: 0;
-            transform: translateX(20px);
-        }
-
-        to {
-            opacity: 1;
-            transform: translateX(0);
-        }
+   .container{
+    overflow: hidden;
+   }
+   .item{
+    opacity: 0; 
+    transition: opacity 1s ease-out; 
+   }
+   @keyframes slideLeft {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
     }
-
-    @keyframes slideRight {
-        from {
-            opacity: 0;
-            transform: translateX(-20px);
-        }
-
-        to {
-            opacity: 1;
-            transform: translateX(0);
-        }
+    to {
+        opacity: 1;
+        transform: translateX(0);
     }
+}
 
-    .item:nth-child(odd) {
-        view-timeline-name: --item-left;
-        view-timeline-axis: block;
-        animation-timeline: --item-left;
-        animation-name: slideLeft;
-        animation-range: entry 10% cover 80%;
-        animation-fill-mode: both;
+@keyframes slideRight {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
     }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
 
-    .item:nth-child(even) {
-        view-timeline-name: --item-right;
-        view-timeline-axis: block;
-        animation-timeline: --item-right;
-        animation-name: slideRight;
-        animation-range: entry 10% cover 70%;
-        animation-fill-mode: both;
-    } */
+.item.visible {
+    animation: slideLeft 1s ease-out both;
+}
 
+.item:nth-child(even).visible {
+    animation: slideRight 1s ease-out both;
+  }
    
 }
