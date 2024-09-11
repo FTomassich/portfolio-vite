@@ -103,11 +103,11 @@ height: 100%;
         font-size: 70px;
     }
 
-
+/* 
     @keyframes slideLeft {
         from {
             opacity: 0;
-            transform: translateX(30px);
+            transform: translateX(20px);
         }
 
         to {
@@ -119,7 +119,7 @@ height: 100%;
     @keyframes slideRight {
         from {
             opacity: 0;
-            transform: translateX(-40px);
+            transform: translateX(-20px);
         }
 
         to {
@@ -144,7 +144,7 @@ height: 100%;
         animation-name: slideRight;
         animation-range: entry 10% cover 70%;
         animation-fill-mode: both;
-    }
+    } */
 
    
 }
