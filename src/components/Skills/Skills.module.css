@@ -183,7 +183,7 @@
           
           .item {
             opacity: 0; 
-            transition: opacity 1s ease-out; 
+            transition: opacity 1.5s ease-out; 
           }
           
           @keyframes slideLeft {
@@ -209,10 +209,10 @@
           }
           
           .item.visible {
-            animation: slideLeft 1s ease-out both;
+            animation: slideLeft 1.5s ease-out both;
           }
           
           .item:nth-child(even).visible {
-            animation: slideRight 1s ease-out both;
+            animation: slideRight 1.5s ease-out both;
           }
   }
