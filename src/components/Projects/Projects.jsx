@@ -66,7 +66,29 @@ const Projects = () => {
           </div>
         </div>
 
-        {/* Agrega más tarjetas de la misma manera */}
+        <div className={styles.item}>
+          <div className={styles.innerItem}>
+            <div className={styles.front}>
+              <h1 className={styles.sub}>Innovatech | e-commerce</h1>
+              <img src={go} alt="Innovatech e-commerce" className={styles.img}/>
+            </div>
+            <div className={styles.back}>
+              <p className={styles.description}>An e-commerce platform for tech products, providing a seamless shopping experience.</p>
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.item}>
+          <div className={styles.innerItem}>
+            <div className={styles.front}>
+              <h1 className={styles.sub}>Innovatech | e-commerce</h1>
+              <img src={go} alt="Innovatech e-commerce" className={styles.img}/>
+            </div>
+            <div className={styles.back}>
+              <p className={styles.description}>An e-commerce platform for tech products, providing a seamless shopping experience.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   )

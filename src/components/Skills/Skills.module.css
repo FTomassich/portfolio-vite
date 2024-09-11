@@ -170,6 +170,7 @@
 
         .container {
             margin-top: 35px;
+            overflow: hidden;
         }
 
         .strong{
@@ -178,5 +179,40 @@
             font-weight: 300;
         }
 
-
+        
+          
+          .item {
+            opacity: 0; 
+            transition: opacity 1s ease-out; 
+          }
+          
+          @keyframes slideLeft {
+            from {
+              opacity: 0;
+              transform: translateX(100px);
+            }
+            to {
+              opacity: 1;
+              transform: translateX(0);
+            }
+          }
+          
+          @keyframes slideRight {
+            from {
+              opacity: 0;
+              transform: translateX(-100px);
+            }
+            to {
+              opacity: 1;
+              transform: translateX(0);
+            }
+          }
+          
+          .item.visible {
+            animation: slideLeft 1s ease-out both;
+          }
+          
+          .item:nth-child(even).visible {
+            animation: slideRight 1s ease-out both;
+          }
   }

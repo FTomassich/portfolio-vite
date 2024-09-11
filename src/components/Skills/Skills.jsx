@@ -1,6 +1,6 @@
 
 import styles from '../Skills/Skills.module.css';
-import React from 'react';
+import React, {useEffect} from 'react';
 import reactIcon from "../../assets/react.png";
 import postgresql from "../../assets/postgresql.png";
 import cssIcon from "../../assets/css.png";
@@ -12,10 +12,40 @@ import git from "../../assets/git.png";
 import vite from "../../assets/vite.png";
 import html from "../../assets/html.png";
 import sequelize from "../../assets/sequelize.png"
-import space2020 from "../../assets/space2020.jpg"
+
 
 
 const Skills = () => {
+  useEffect(() => {
+    const observerOptions = {
+      root: null, // Use the viewport as the root
+      rootMargin: '0px',
+      threshold: 0.4 // Trigger the callback when 30% of the element is visible
+    };
+
+    const handleIntersect = (entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add(styles.visible);
+        } else {
+          entry.target.classList.remove(styles.visible);
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(handleIntersect, observerOptions);
+    const items = document.querySelectorAll(`.${styles.item}`);
+
+    items.forEach(item => {
+      observer.observe(item);
+    });
+
+    return () => {
+      items.forEach(item => {
+        observer.unobserve(item);
+      });
+    };
+  }, []);
   const icons = [
     { src: reactIcon, alt: "React" },
     { src: github, alt: "GitHub" },
