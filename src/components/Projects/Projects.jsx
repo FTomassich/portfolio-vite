@@ -5,6 +5,8 @@ import gitt from "../../assets/gitt.png"
 import go from '../../assets/go.png';
 import dogsi from '../../assets/dogsi.png';
 import planet from '../../assets/planet.png';
+import dog from '../../assets/dog.png';
+import cart from '../../assets/cart.png';
 
 
 const Projects = () => {
@@ -46,7 +48,9 @@ const Projects = () => {
         <div className={styles.item}>
           <div className={styles.innerItem}>
             <div className={styles.front}>
-              <h1 className={styles.sub}>Find Dogs App</h1>
+              <div className={styles.group2}><img className={styles.btn} src={dog} alt="" /><h1 className={styles.sub}>Find Dogs App</h1></div>
+              
+              
               <img src={dogsi} className={styles.imgDogs} alt="Find Dogs App" />
             </div>
             <div className={styles.back}>
@@ -62,7 +66,7 @@ const Projects = () => {
         <div className={styles.item}>
           <div className={styles.innerItem}>
             <div className={styles.front}>
-              <h1 className={styles.sub}>Innovatech | e-commerce</h1>
+              <div className={styles.group2}><img className={styles.btn} src={cart} alt="" /><h1 className={styles.sub}>Innova-tech</h1></div>
               <img src={go} alt="Innovatech e-commerce" className={styles.img} />
             </div>
             <div className={styles.back}>
