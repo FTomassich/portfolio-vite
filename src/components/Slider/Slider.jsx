@@ -40,12 +40,12 @@ const CustomSlider = () => {
 
             <div className={styles.group}>
                 <strong className={styles.strong}>
-                    👨‍💻 Soy Full Stack Developer, recientemente egresado de Henry Bootcamp con una marcada orientación hacia el frontend. Disfruto aprendiendo y creando interfaces creativas, amigables e intuitivas para los usuarios, pero sobre todo FUNCIONALES!
+                    👨‍💻 Soy desarrollador Full Stack, con orientación hacia el frontend. Disfruto aprendiendo y creando interfaces creativas, amigables e intuitivas para los usuarios. Mis lemas son la simpleza y la funcionalidad🎯
                 </strong>
             </div>
             <div className={styles.group}>
                 <strong className={styles.strong}>
-                    ✍ Tengo sólidos conocimientos en redacción para distintos rubros y plataformas: periodística, marketing digital, y redes sociales. A su vez, puedo diseñar piezas gráficas y visuales, tales como: publicaciones en redes sociales, flyers, revistas, folletos, etc. La combinación de mis habilidades me permite diseñar y crear experiencias web efectivas, orientadas a un público objetivo.
+                    ✍ Durante mi desarrollo profesional he desarrollado una sólida experiencia en redacción multiplataforma, abarcando diversos sectores como el periodístico, marketing digital y redes sociales. Además, poseo un buen criterio para el diseño de piezas gráficas y visuales, como flyers para redes sociales, publicaciones comerciales y branding institucional. La combinación de mis habilidades en redacción y diseño me permite crear experiencias web efectivas, enfocadas en alcanzar objetivos específicos y conectar con el público adecuado.
                 </strong>
             </div>
             <div className={styles.group}>
@@ -55,7 +55,7 @@ const CustomSlider = () => {
             </div>
             <div className={styles.group}>
                 <strong className={styles.strong}>
-                    🔋 Actualmente me encuentro disponible para emprender nuevos desafíos como desarrollador web. Aunque mis mayores fortalezas se encuentran del lado del front-end, actualmente también estoy interesado en fortalecer y aprender habilidades en back-end. Me interesan los procesos de registro y autenticación, y la protección de datos sensibles.
+                🔋 Me apasiona aprender y colaborar con colegas en entornos dinámicos. Tengo experiencia trabajando con metodologías ágiles y actualmente estoy disponible para asumir nuevos desafíos como desarrollador web, con el objetivo de continuar mi crecimiento profesional. Si buscas a un desarrollador comprometido y entusiasta, no dudes en contactarme. 
                 </strong>
             </div>
 
