@@ -63,7 +63,7 @@
     padding: 25px;
 box-sizing: border-box;
 backdrop-filter: blur(4px);
-text-align: center;
+text-align: left;
 line-height: 1.5;
 
 border-radius: 10px;
