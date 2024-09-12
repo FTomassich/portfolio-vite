@@ -3,8 +3,6 @@
 
 .container {
   width: 100%;
-
-  /* background-image: url('../../assets/fondo.jpg'); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -14,7 +12,6 @@
   align-items: center;
   align-content: center;
   justify-content: center;
-  /* height: 600px; */
   height: 590px;
 }
 
@@ -23,7 +20,7 @@
   height: 450px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items:center;
   align-content: center;
   justify-content: space-between;
   font-size: 85px;
@@ -51,6 +48,10 @@
   font-size: 40px;
   font-weight: 400;
   font-family: var(--font-roboto);
+
+
+  border-radius: 10px;
+  
 }
 
 .group {
@@ -109,8 +110,9 @@
 }
 
 .title {
-  font-weight: 900;
-  display: block;
+  font-weight: 00;
+  display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
   margin-bottom: 33px;

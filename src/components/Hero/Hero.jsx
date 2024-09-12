@@ -13,7 +13,7 @@ const Hero = () => {
       <div className={styles.content}>
         <typing-effect
           data-character-delay="170"
-          class="title"
+          className={styles.title}
           data-lines='
     ["Franco","Tomassich"]
     '

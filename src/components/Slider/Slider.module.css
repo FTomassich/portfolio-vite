@@ -1,10 +1,12 @@
 .slick-slide {
     box-sizing: border-box;  
+    align-items: center;
 }
 
 .slick-track{
     padding-block:20px;
-    
+    align-items: center;
+
 }
 
 
@@ -28,8 +30,8 @@
 
 .group{
     padding: 20px;
-    backdrop-filter: blur(2px); 
-    height: 200px;
+    backdrop-filter: blur(4px); 
+    height: 230px;
     box-sizing: border-box;
     
     display: flex;
@@ -37,7 +39,7 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    text-align:justify;
+    text-align:left;
     border-radius: 9px;
     border: solid 1px yellowgreen;
     
@@ -46,15 +48,15 @@
 
 .strong {
     height: auto;
-    font-size: 18px;
+    font-size: 20px;
     font-family: var(--font-roboto);
-    font-weight: 300;
+    font-weight: 100;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
-    
+    line-height: 1.5;
     
 }
 
@@ -62,14 +64,16 @@
 
 @media only screen and (max-width: 830px) {
         .strong{
-            
-            font-size: 12px;
-            font-weight: 300;
+            align-items: center;
+            align-content: center;
+            font-size: 14px;
+            font-weight: 100;
         }
         
         .group {
+            
             width: 80vw;
-            height: 200px;
+            height: 250px;
             display: flex;
             align-items: center;
             align-content: center;
