@@ -11,7 +11,7 @@ const Hero = () => {
   return (
     
     <section id="home" className={styles.container} >
-      <div className={styles.anchor}></div>
+      
       <div className={styles.content}>
         <typing-effect
           data-character-delay="170"
