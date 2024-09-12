@@ -5,7 +5,7 @@ import CustomSlider from '../Slider/Slider';
 
 const About = () => {
     return (
-        <section className={styles.container} >
+        <section id="about" className={styles.container} >
             <div className={styles.duo}>
                 <h1 className={styles.title}>About</h1>
                 <p className={styles.subt}>🖐😀Hola! Me da gusto recibirte en mi portfolio. En estas slides te comentaré brevemente acerca de mi perfil profesional</p>

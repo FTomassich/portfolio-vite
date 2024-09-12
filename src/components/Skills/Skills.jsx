@@ -62,9 +62,10 @@ const Skills = () => {
   ];
 
   return (
-    <section className={styles.section} >
+    <section id="skills" className={styles.section} >
       <div >
-        <h1 className={styles.title}>Tech Skills</h1>
+        <h1 
+        className={styles.title}>Tech Skills</h1>
       </div>
       <div className={styles.carousel}>
         <ul className={styles.techList}>
