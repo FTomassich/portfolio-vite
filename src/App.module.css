@@ -4,7 +4,7 @@
 .App {
 
     width: 100%;
-    height: auto;
+    height: 100vh;
     color: white;
     background-size: cover;
     background-position: center;
@@ -19,6 +19,9 @@
     /* Para asegurar que tome toda la pantalla */
     overflow: auto;
     /* Para permitir el scroll */   
+    
+}
+.scroll{
     scroll-padding-top: 200px;
 }
 
