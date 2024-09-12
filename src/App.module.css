@@ -19,7 +19,7 @@
     /* Para asegurar que tome toda la pantalla */
     overflow: auto;
     /* Para permitir el scroll */   
-    scroll-padding-bottom: 200px;
+    scroll-padding-bottom: 500px;
 }
 
 
