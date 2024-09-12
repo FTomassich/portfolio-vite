@@ -9,7 +9,9 @@ import TypingEffectElement from '@github/typing-effect-element';
 const Hero = () => {
 
   return (
-    <section className={styles.container} >
+    
+    <section id="home" className={styles.container} >
+      <div className={styles.anchor}></div>
       <div className={styles.content}>
         <typing-effect
           data-character-delay="170"

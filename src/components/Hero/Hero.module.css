@@ -1,6 +1,7 @@
 @import "../../vars.css";
 /* @import url(); */
 
+
 .container {
   width: 100%;
   background-size: cover;
@@ -13,6 +14,7 @@
   align-content: center;
   justify-content: center;
   height: 590px;
+ 
 }
 
 .content {
