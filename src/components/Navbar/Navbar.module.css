@@ -129,7 +129,13 @@
     }
 
     .menuOpen {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         display: flex;
+        width: 200px;
+        height: 250px;
         z-index: 1;
     }
     .cohete13 {
