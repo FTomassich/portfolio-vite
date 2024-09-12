@@ -17,7 +17,7 @@
     padding: 20px;
     
     
-    width: 80%;
+    width: 90%;
     height: 100%;
     margin-top: 20px;
     margin-bottom: 40px;
@@ -33,7 +33,7 @@
     backdrop-filter: blur(4px); 
     height: 230px;
     box-sizing: border-box;
-    
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,7 +42,6 @@
     text-align:left;
     border-radius: 9px;
     border: solid 1px yellowgreen;
-    
     box-shadow: 5px 4px 7px rgba(154, 205, 50, 0.3);
 }
 

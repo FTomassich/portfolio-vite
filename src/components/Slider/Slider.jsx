@@ -55,7 +55,7 @@ const CustomSlider = () => {
             </div>
             <div className={styles.group}>
                 <strong className={styles.strong}>
-                🔋 Me apasiona aprender y colaborar con colegas en entornos dinámicos. Tengo experiencia trabajando con metodologías ágiles y actualmente estoy disponible para asumir nuevos desafíos como desarrollador web, con el objetivo de continuar mi crecimiento profesional. Si buscas a un desarrollador comprometido y entusiasta, no dudes en contactarme. 
+                🔋 Me apasiona aprender y colaborar con colegas en entornos dinámicos. Tengo experiencia trabajando con metodologías ágiles y actualmente estoy disponible para asumir nuevos desafíos como desarrollador web. Si buscas a un desarrollador comprometido y entusiasta, no dudes en contactarme. 
                 </strong>
             </div>
 
