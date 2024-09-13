@@ -75,10 +75,11 @@ height: 100%;
     justify-content: space-evenly;
     perspective: 1000px; 
     width: 300px;
-    height: 350px;
+    height: 400px;
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
-  }
+    transition: transform 0.8s  
+}
   
   .inner-item {
     position: relative;
@@ -88,7 +89,7 @@ height: 100%;
     transition: transform 0.8s;
   }
   
-  .item:hover .inner-item {
+  .item.active .inner-item {
     transform: rotateY(180deg);
   }
   
@@ -178,36 +179,31 @@ a {
 
    
 }
-
-
-  /* Botón de 'Ver más' para activar el efecto en mobile */
-  .item .see-more-btn {
-    display: none; /* Oculto en pantallas grandes */
+.see-more-btn {
+    display: block; /* Mostrar botón en móviles */
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
   }
 
+  
 @media only screen and (max-width: 830px) {
-    .item .see-more-btn {
-        display: block; /* Muestra el botón en móviles */
-        margin-top: 10px;
-        padding: 10px 20px;
-        background-color: #007bff;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-      }
+   
     
-      .item .see-more-btn:active + .inner-item {
-        transform: rotateY(180deg); /* Aplica la rotación cuando el botón es tocado */
+      .item.active .inner-item {
+        transform: rotateY(180deg); /* Aplica rotación cuando el estado está activo */
       }
+   
     .title {
         font-size: 70px;
     }
-   .container{
-    overflow: hidden;
-   }
+   
    .item{
-    opacity: 0; 
+    opacity: 1; 
     transition: opacity 1.5s ease-out; 
    }
    @keyframes slideLeft {
@@ -245,9 +241,7 @@ a {
     margin-top: 20px;
     margin-bottom: 30px;
   }
+
   
-  .item:hover .inner-item {
-    transform: none; 
-  }
    
 }
