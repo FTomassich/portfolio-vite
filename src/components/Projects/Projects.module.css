@@ -179,12 +179,7 @@ a {
    
 }
 
-@media (hover: none) {
-    .item:hover .inner-item {
-      transform: none; /* Desactiva la rotación por hover en dispositivos táctiles */
-    }
-  }
-  
+
   /* Botón de 'Ver más' para activar el efecto en mobile */
   .item .see-more-btn {
     display: none; /* Oculto en pantallas grandes */
@@ -249,6 +244,10 @@ a {
     font-size: 80px;
     margin-top: 20px;
     margin-bottom: 30px;
+  }
+  
+  .item:hover .inner-item {
+    transform: none; 
   }
    
 }
