@@ -15,36 +15,7 @@ const Projects = () => {
     setActiveIndex(index === activeIndex ? null : index);
   };
 
-  useEffect(() => {
-    const observerOptions = {
-      root: null,
-      rootMargin: '0px',
-      threshold: 0.4
-    };
-
-    const handleIntersect = (entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add(styles.visible);
-        } else {
-          entry.target.classList.remove(styles.visible);
-        }
-      });
-    };
-
-    const observer = new IntersectionObserver(handleIntersect, observerOptions);
-    const items = document.querySelectorAll(`.${styles.item}`);
-
-    items.forEach(item => {
-      observer.observe(item);
-    });
-
-    return () => {
-      items.forEach(item => {
-        observer.unobserve(item);
-      });
-    };
-  }, []);
+ 
 
   return (
     <section id="projects" className={styles.section}>
