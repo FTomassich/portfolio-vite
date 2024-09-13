@@ -179,7 +179,32 @@ a {
    
 }
 
+@media (hover: none) {
+    .item:hover .inner-item {
+      transform: none; /* Desactiva la rotación por hover en dispositivos táctiles */
+    }
+  }
+  
+  /* Botón de 'Ver más' para activar el efecto en mobile */
+  .item .see-more-btn {
+    display: none; /* Oculto en pantallas grandes */
+  }
+
 @media only screen and (max-width: 830px) {
+    .item .see-more-btn {
+        display: block; /* Muestra el botón en móviles */
+        margin-top: 10px;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    
+      .item .see-more-btn:active + .inner-item {
+        transform: rotateY(180deg); /* Aplica la rotación cuando el botón es tocado */
+      }
     .title {
         font-size: 70px;
     }
