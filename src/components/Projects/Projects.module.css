@@ -149,7 +149,7 @@ height: 100%;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    border:solid 1px #007bff;
+    
     border-radius: 10px;
    
 }
@@ -227,6 +227,8 @@ a {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+
+ 
 
   
    
