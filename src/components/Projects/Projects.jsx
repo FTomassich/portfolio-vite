@@ -34,19 +34,27 @@ const Projects = () => {
               </button>
             </div>
             <div className={styles.back}>
-              <p className={styles.description}>Una app en la que podrás buscar perros por raza, ordenarlos y filtrarlos según características adicionales como temperamento, peso y estatura. Además podrás crear nuevos registros en la base de datos con el formulario controlado. Visítala y conoce a tu próximo amigo de cuatro patas. Tecnologías implicadas en el desarrollo: React, Redux, PostgreSQL, Express js, Sequelize.</p>
+            <p className={styles.description}>Una app en la que podrás buscar perros por raza, ordenarlos y filtrarlos según características adicionales como temperamento, peso y estatura. Además podrás crear nuevos registros en la base de datos con el formulario controlado. Visítala y conoce a tu próximo amigo de cuatro patas. Tecnologías implicadas en el desarrollo: React, Redux, PostgreSQL, Express js, Sequelize.</p>
+
+
+
+              <div className={styles.flex}>
               <a href="https://github.com/FTomassich/PI-Dogs">
                 <div className={styles.group}>
                   <img className={styles.btn} src={gitt} alt="" />
                   <p>GITHUB</p>
                 </div>
               </a>
+             
               <a href="https://pi-dogs-sage-three.vercel.app/">
                 <div className={styles.group}>
                   <img className={styles.btn} src={planet} alt="" />
                   <p>DEPLOY</p>
                 </div>
               </a>
+              </div>
+             
+             
               <button className={styles.seeMoreBtn} onClick={() => handleButtonClick(0)}>
                 Ver menos
               </button>

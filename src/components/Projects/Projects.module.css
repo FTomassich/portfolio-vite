@@ -64,18 +64,18 @@ height: 100%;
 }
 .item {
     backdrop-filter: blur(2px);
-    border-radius: 5%;
+    border-radius: 15px;
     border: solid 1px rgb(220, 220, 243);
     display: flex;
     flex-direction: column;
-    height: 350px;
+
     flex-grow: 1;
     flex-basis: 220px;
     align-items: center;
     justify-content: space-evenly;
     perspective: 1000px; 
     width: 300px;
-    height: 400px;
+    height: 450px;
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
     transition: opacity 1s  ;
@@ -99,11 +99,11 @@ height: 100%;
     position: absolute;
     width: 100%;
     height: 100%;
-    backface-visibility: hidden; /* Oculta la cara trasera cuando rota */
-    border-radius: 5%;
+    backface-visibility: hidden;
+    
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: column;
   }
   
@@ -118,14 +118,14 @@ height: 100%;
   
   .description {
     padding: 20px;
+   
+
     text-align: center;
   }
 
-
-
 .img {
-    width: 90%;
-    height: 200px;
+    width: 310px;
+    height: 260px;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -135,14 +135,24 @@ height: 100%;
 
 .imgDogs {
     aspect-ratio: 4/3;
-    width: 330px;
-    height: 230px;
+    width: 350px;
+    height: 260px;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 10px;
 }
-
+.group2{
+    width:200px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border:solid 1px #007bff;
+    border-radius: 10px;
+    ;
+}
 .sub {
     font-weight: 100;
     display: flex;
@@ -158,8 +168,8 @@ a {
 }
 
 .btn{
-    width: 25px;
-    height: 25px;
+    width: 21px;
+    height: 21px;
 }
 
 .group{
@@ -171,16 +181,18 @@ a {
     align-items: center;
 }
 
-.group2{
-    width:200px;
-    height: 70px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
 
-   
+
+.flex{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+    
 }
+
+
 .see-more-btn {
     display: block; /* Mostrar botón en móviles */
     margin-top: 10px;
@@ -194,8 +206,6 @@ a {
 
   
 @media only screen and (max-width: 830px) {
-   
-    
       .item.active .inner-item {
         transform: rotateY(180deg); /* Aplica rotación cuando el estado está activo */
       }
