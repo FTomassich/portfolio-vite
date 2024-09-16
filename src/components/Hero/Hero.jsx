@@ -19,14 +19,14 @@ const Hero = () => {
           data-lines='
     ["Franco","Tomassich"]
     '
-    
+
         >
           <span data-target="typing-effect.content"  ></span>
           <span data-target="typing-effect.cursor"></span>
 
         </typing-effect>
 
-        <p className={styles.description}>Desarrollador web Full stack con background en producción de contenidos y comunicación efectiva👨‍💻</p>
+        <p className={styles.description}>Desarrollador web Full stack con background en comunicación y producción de contenidos👨‍💻</p>
       </div>
 
       <div className={styles.contImage}>
