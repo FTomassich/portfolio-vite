@@ -31,7 +31,7 @@ const Hero = () => {
 
       <div className={styles.contImage}>
         <img src={atron1} alt='Hero image of me' className={styles.heroImg} />
-<p>¿Conectamos ideas? Estoy a tan solo un click de distancia!</p>
+<p className={styles.connect}>¿Conectamos ideas? Estoy a tan solo un click de distancia!</p>
         <div className={styles.group}>
 
           <a href="https://github.com/FTomassich">
