@@ -7,6 +7,7 @@ import dogsi from '../../assets/dogsi.png';
 import planet from '../../assets/planet.png';
 import dog from '../../assets/dog.png';
 import cart from '../../assets/cart.png';
+import selectoras from '../../assets/selectoras.png'
 
 const Projects = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -55,7 +56,7 @@ const Projects = () => {
               </div>
              
              
-              <button className={styles.seeMoreBtn} onClick={() => handleButtonClick(0)}>
+              <button className={styles.seeMoreBtn} onClick={() => handleButtonClick(null)}>
                 Ver menos
               </button>
             </div>
@@ -71,11 +72,13 @@ const Projects = () => {
               </div>
               <img src={go} alt="Innova-tech e-commerce" className={styles.img} />
               <button className={styles.seeMoreBtn} onClick={() => handleButtonClick(1)}>
-                See More
+                Ver más
               </button>
             </div>
             <div className={styles.back}>
               <p className={styles.description}>Innova-Tech es una moderna plataforma e-commerce de productos tecnológicos, que ofrece a sus clientes una experiencia de compra agradable, fluida, eficiente y segura. Algunas tecnologías desplegadas en su desarrollo fueron: React, Redux, Cloudinary, PostgreSQL, Express, Sequelize, JsonWebToken, 0auth, Mercadopago.</p>
+              
+              <div className={styles.flex}>
               <a href="https://github.com/Vrmoya/innovatech-front">
                 <div className={styles.group}>
                   <img className={styles.btn} src={gitt} alt="" />
@@ -88,6 +91,10 @@ const Projects = () => {
                   <p>DEPLOY</p>
                 </div>
               </a>
+              </div>
+              <button className={styles.seeMoreBtn} onClick={() => handleButtonClick(null)}>
+                Ver menos
+              </button>
             </div>
           </div>
         </div>
@@ -95,14 +102,35 @@ const Projects = () => {
         <div className={`${styles.item} ${activeIndex === 2 ? styles.active : ''}`}>
           <div className={styles.innerItem}>
             <div className={styles.front}>
-              <h1 className={styles.sub}>Project 3</h1>
-              <img src={go} alt="Project 3" className={styles.img} />
+              <div className={styles.group2}>
+                <img className={styles.btn} src={cart} alt="" />
+                <h1 className={styles.sub}>Repuestos Córdoba</h1>
+              </div>
+              <img src={selectoras} alt="Innova-tech e-commerce" className={styles.imgSelec} />
               <button className={styles.seeMoreBtn} onClick={() => handleButtonClick(2)}>
-                See More
+                Ver más
               </button>
             </div>
             <div className={styles.back}>
-              <p className={styles.description}>Description for project 3</p>
+              <p className={styles.description}>Pagina comercial de Facebook en Argentina. Venta de repuesto de automóviles de todo tipo. Si bien se trata de un proyecto en constante mejora, cuenta con un buen engagement, generado por sus más de tres mil amigos, y 3600 publicaciones activas en marketplace.</p>
+              
+              <div className={styles.flex}>
+              <a href="https://github.com/Vrmoya/innovatech-front">
+                <div className={styles.group}>
+                  <img className={styles.btn} src={gitt} alt="" />
+                  <p>GITHUB</p>
+                </div>
+              </a>
+              <a href="https://innovatechok.vercel.app/">
+                <div className={styles.group}>
+                  <img className={styles.btn} src={planet} alt="" />
+                  <p>DEPLOY</p>
+                </div>
+              </a>
+              </div>
+              <button className={styles.seeMoreBtn} onClick={() => handleButtonClick(null)}>
+                Ver menos
+              </button>
             </div>
           </div>
         </div>
