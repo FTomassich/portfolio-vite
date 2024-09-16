@@ -64,8 +64,7 @@ text-align: center;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
- 
+  align-items: center; 
 }
 
 .contactBtn {
@@ -194,8 +193,14 @@ text-align: center;
     height: 400px;
   }
 
-  .contactBtn {
-    font-size: 9px
+   .contactBtn{
+    width:35px
+  }
+  .githubBtn{
+    width: 28px;
+  }
+  .linkedinBtn{
+width:30px
   }
 
   .connect{
