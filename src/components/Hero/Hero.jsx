@@ -19,6 +19,7 @@ const Hero = () => {
           data-lines='
     ["Franco","Tomassich"]
     '
+    
         >
           <span data-target="typing-effect.content"  ></span>
           <span data-target="typing-effect.cursor"></span>
