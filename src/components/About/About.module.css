@@ -96,13 +96,13 @@
     }
 
     .subt {
-        width: 85%;
+        width: 89%;
         font-family: var(--font-roboto);
-        font-size: 13px;
+        font-size: 15px;
         font-weight: 400;
         align-items: center;
         align-content: center;
-        padding: 25px;
+        padding: 15px;
         box-sizing: border-box;
 
     }
