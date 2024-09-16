@@ -56,16 +56,16 @@
 }
 
 .subt {
-    width: 85%;
+    width: 80%;
     font-family: var(--font-roboto);
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 200;
     align-items: center;
     align-content: center;
     padding: 25px;
     box-sizing: border-box;
     backdrop-filter: blur(4px);
-    text-align: left;
+    text-align: center;
     line-height: 1.5;
 
     border-radius: 10px;
