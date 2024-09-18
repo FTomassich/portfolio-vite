@@ -46,7 +46,7 @@ const CustomSlider = () => {
             </div>
             <div className={styles.group}>
                 <strong className={styles.strong}>
-                    ✍ Durante mi desarrollo profesional adquirí sólida experiencia en redacción multiplataforma, abarcando diversos sectores como el periodístico, el marketing digital y las redes sociales. Además, en mi trayecto adquirí conocimientos en diseño de piezas gráficas y visuales, como flyers para redes sociales, publicaciones comerciales y branding institucional.
+                    ✍ Durante mi formación profesional adquirí experiencia en redacción multiplataforma, abarcando diversos sectores como el periodístico, el marketing digital y las redes sociales. Además adquirí conocimientos en diseño de piezas gráficas y visuales, como flyers para redes sociales, publicaciones comerciales y branding institucional.
                 
                 </strong>
             </div>
