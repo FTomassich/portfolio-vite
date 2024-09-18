@@ -28,7 +28,9 @@ const Projects = () => {
               <div className={styles.group2}>
                 <img className={styles.btn} src={dog} alt="" />
                 <h1 className={styles.sub}>Find Dogs App</h1>
+          
               </div>
+              <span className={styles.txt}>WEB DEVELOPMENT</span>
               <img src={dogsi} className={styles.imgDogs} alt="Find Dogs App" />
               <button className={styles.seeMoreBtn} onClick={() => handleButtonClick(0)}>
                 Ver más
@@ -70,6 +72,7 @@ const Projects = () => {
                 <img className={styles.btn} src={cart} alt="" />
                 <h1 className={styles.sub}>Innova-tech</h1>
               </div>
+              <span className={styles.txt}>WEB DEVELOPMENT</span>
               <img src={go} alt="Innova-tech e-commerce" className={styles.img} />
               <button className={styles.seeMoreBtn} onClick={() => handleButtonClick(1)}>
                 Ver más
@@ -106,6 +109,7 @@ const Projects = () => {
                 <img className={styles.btn} src={cart} alt="" />
                 <h1 className={styles.sub}>Repuestos Córdoba</h1>
               </div>
+              <span className={styles.txt}>PROYECTO COMERCIAL</span>
               <img src={selectoras} alt="Innova-tech e-commerce" className={styles.imgSelec} />
               <button className={styles.seeMoreBtn} onClick={() => handleButtonClick(2)}>
                 Ver más
@@ -115,18 +119,13 @@ const Projects = () => {
               <p className={styles.description}>Pagina comercial de Facebook en Argentina. Venta de repuestos de automóviles de todo tipo. Si bien se trata de un proyecto en constante mejora, ya cuenta con un buen engagement, generado por sus más de tres mil amigos, posee más de tres mil setescientas publicaciones activas en marketplace y cientos de clientes satisfechos a lo largo y ancho de Argentina.</p>
               
               <div className={styles.flex}>
-              <a href="https://github.com/Vrmoya/innovatech-front">
-                <div className={styles.group}>
-                  <img className={styles.btn} src={gitt} alt="" />
-                  <p>GITHUB</p>
-                </div>
-              </a>
-              <a href="https://innovatechok.vercel.app/">
-                <div className={styles.group}>
+              <a href="">
+                <div className={styles.groupx}>
                   <img className={styles.btn} src={planet} alt="" />
-                  <p>DEPLOY</p>
+                  <p>LINK</p>
                 </div>
               </a>
+              
               </div>
               <button className={styles.seeMoreBtn} onClick={() => handleButtonClick(null)}>
                 Ver menos

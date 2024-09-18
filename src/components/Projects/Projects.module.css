@@ -144,8 +144,12 @@ height: 100%;
 }
 
 .imgSelec{
-  width:240px;
-  height: 180px;
+  aspect-ratio: 4/3;
+    width: 300px;
+    height: 225px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .group2{
     width:200px;
@@ -175,9 +179,12 @@ a {
 .btn{
     width: 21px;
     height: 21px;
+    
+    
 }
 
 .group{
+  
     width: 100px;
     height: 30px;
     display: flex;
@@ -186,6 +193,22 @@ a {
     align-items: center;
 }
 
+.groupx{
+  width: 70px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  
+  
+}
+
+.txt{
+  font-size: 9px;
+  font-weight: 100;
+  
+}
 
 
 .flex{
