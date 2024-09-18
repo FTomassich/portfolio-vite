@@ -112,7 +112,7 @@ const Projects = () => {
               </button>
             </div>
             <div className={styles.back}>
-              <p className={styles.description}>Pagina comercial de Facebook en Argentina. Venta de repuestos de automóviles de todo tipo. Si bien se trata de un proyecto en constante mejora, cuenta con un buen engagement, generado por sus más de tres mil amigos, y 3600 publicaciones activas en marketplace.</p>
+              <p className={styles.description}>Pagina comercial de Facebook en Argentina. Venta de repuestos de automóviles de todo tipo. Si bien se trata de un proyecto en constante mejora, ya cuenta con un buen engagement, generado por sus más de tres mil amigos, posee más de tres mil setescientas publicaciones activas en marketplace y cientos de clientes satisfechos a lo largo y ancho de Argentina.</p>
               
               <div className={styles.flex}>
               <a href="https://github.com/Vrmoya/innovatech-front">
