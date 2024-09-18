@@ -40,13 +40,13 @@ const CustomSlider = () => {
 
             <div className={styles.group}>
                 <strong className={styles.strong}>
-                    👨‍💻 Soy desarrollador Full Stack, con orientación hacia el frontend. Disfruto aprendiendo y creando interfaces creativas, amigables e intuitivas para los usuarios. Mis lemas son la simpleza y la funcionalidad.
-                    La combinación de mis habilidades en redacción y diseño me permite crear experiencias web efectivas, enfocadas en conectar con el público adecuado🎯
+                    👨‍💻 Soy desarrollador Full Stack, con orientación hacia el frontend.  Disfruto aprendiendo y creando interfaces creativas, amigables e intuitivas para los usuarios.
+                    Cuento con habilidades en redacción y buen ojo para el diseño, lo cual me permite crear experiencias web completas, enfocadas en conectar con el público adecuado. Mis lemas son la simpleza y la funcionalidad🎯
                 </strong>
             </div>
             <div className={styles.group}>
                 <strong className={styles.strong}>
-                    ✍ Durante mi desarrollo profesional he desarrollado una sólida experiencia en redacción multiplataforma, abarcando diversos sectores como el periodístico, marketing digital y redes sociales. Además, poseo un buen criterio para el diseño de piezas gráficas y visuales, como flyers para redes sociales, publicaciones comerciales y branding institucional.
+                    ✍ Durante mi desarrollo profesional adquirí sólida experiencia en redacción multiplataforma, abarcando diversos sectores como el periodístico, el marketing digital y las redes sociales. Además, en mi trayecto adquirí conocimientos en diseño de piezas gráficas y visuales, como flyers para redes sociales, publicaciones comerciales y branding institucional.
                 
                 </strong>
             </div>
