@@ -116,10 +116,10 @@ const Projects = () => {
               </button>
             </div>
             <div className={styles.back}>
-              <p className={styles.description}>Pagina comercial de Facebook en Argentina. Venta de repuestos de automóviles de todo tipo. Si bien se trata de un proyecto en constante mejora, ya cuenta con un buen engagement, generado por sus más de tres mil amigos, posee más de tres mil setescientas publicaciones activas en marketplace y cientos de clientes satisfechos a lo largo y ancho de Argentina.</p>
+              <p className={styles.description}>Página comercial en Facebook especializada en la venta de repuestos de automóviles en Argentina. El proyecto está en constante evolución y ya ha logrado un excelente nivel de interacción, con más de tres mil seguidores activos. Actualmente, cuenta con más de 3.700 publicaciones en Marketplace y una amplia base de clientes satisfechos en todo el país.</p>
               
               <div className={styles.flex}>
-              <a href="">
+              <a href="https://www.facebook.com/selectorascordoba/">
                 <div className={styles.groupx}>
                   <img className={styles.btn} src={planet} alt="" />
                   <p>LINK</p>
