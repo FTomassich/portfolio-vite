@@ -118,12 +118,13 @@
         align-items: center;
         gap: 13px;
         border-radius: 10px;
-        background: rgb(3, 13, 31);
+        
         background: linear-gradient(
             0deg,
             rgba(0, 0, 0, 0.2) 0%,
             rgb(15, 15, 15) 100%
         );
+        background-color: blue;
         padding: 24px 33px;
         box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
     }

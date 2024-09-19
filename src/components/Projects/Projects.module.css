@@ -184,7 +184,6 @@ a {
 }
 
 .group{
-  
     width: 100px;
     height: 30px;
     display: flex;
@@ -200,14 +199,11 @@ a {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-  
-  
 }
 
 .txt{
   font-size: 9px;
   font-weight: 100;
-  
 }
 
 
