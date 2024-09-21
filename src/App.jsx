@@ -19,7 +19,7 @@ function App() {
       <Navbar/>
       
       <Hero/>
-      {/* <About/> */}
+      <About/>
       <Skills/>
       <Projects/>
       <Footer/>
