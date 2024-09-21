@@ -21,8 +21,8 @@ function App() {
       <Hero/>
       <About/>
       <Skills/>
-      {/* <Projects/>
-      <Footer/> */}
+      {/* <Projects/> */}
+      <Footer/>
      </div>
      
     </>
