@@ -7,11 +7,8 @@
     --color-bg: #04152d;
 
     /* fonts */
-    --font-roboto: "Roboto";
-    overflow: hidden;
+    --font-roboto: "Roboto"
 
     
 }
-body {
-    overflow: hidden; 
-  } 
+ 
