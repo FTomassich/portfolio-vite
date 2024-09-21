@@ -5,7 +5,7 @@
 
     align-items: center;
     width: 100%;
-    height: 300px;
+    height: 50vh;
     background-color: black;
     border-top: solid 1px white;
 }
@@ -75,7 +75,7 @@ padding: 30px;
   @media only screen and (max-width: 830px) {
 
     .section{
-        height: 250px;
+        height: 55vh;
     }
 .footer{
     width:  30%;
@@ -91,7 +91,7 @@ padding: 10px;
     
 }
 a{
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .contactBtn {
