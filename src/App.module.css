@@ -18,8 +18,8 @@
     
     /* Para asegurar que tome toda la pantalla */
     overflow: auto;
-    /* Para permitir el scroll */  
-    
+   /* Para permitir el scroll */  
+    box-sizing: border-box;
    
 }
 
