@@ -2,7 +2,7 @@
 
 
 .App {
-    box-sizing: border-box;
+    
     width: 100%;
     height: 100vh;
     color: white;
@@ -19,7 +19,7 @@
     /* Para asegurar que tome toda la pantalla */
     overflow: auto;
     /* Para permitir el scroll */   
-    
+    padding-bottom: 60px; 
 }
 
 
