@@ -11,7 +11,7 @@ position: relative;
     
   }
   .last-section{
-    scroll-margin-bottom: 100px;
+    scroll-padding-bottom: 100px;
 }
 
 .footer{
