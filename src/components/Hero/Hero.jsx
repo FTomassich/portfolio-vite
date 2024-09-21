@@ -45,7 +45,6 @@ const Hero = () => {
           <a href="mailto:francotomassich@gmail.com" >
             <img className={styles.contactBtn} src={mail} alt="" />
           </a>
-
         </div>
       </div>
 
