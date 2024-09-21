@@ -15,7 +15,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 230px;
+    width: 210px;
     height: 300px;
 }
 
@@ -75,7 +75,7 @@ padding: 30px;
   @media only screen and (max-width: 830px) {
 
 .footer{
-    width:  35%;
+    width:  30%;
     height: auto;
 }
 
@@ -83,8 +83,12 @@ padding: 30px;
     
    font-size: 12px;
    font-weight: 100;
-padding: 15px;
-    margin: 2px;
+padding: 10px;
+    margin: 0;
+    
+}
+a{
+    font-size: 10px;
 }
 
 .contactBtn {
