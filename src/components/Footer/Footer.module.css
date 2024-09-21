@@ -15,8 +15,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 20%;
-    height: auto;
+    width: 230px;
+    height: 300px;
 }
 
 .group {
@@ -76,5 +76,13 @@ padding: 30px;
 
 .footer{
     width:  35%;
+    height: auto;
+}
+
+.group{
+    
+   
+padding: 15px;
+    margin: 2px;
 }
   }
