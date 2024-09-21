@@ -19,10 +19,10 @@ function App() {
       <Navbar/>
       
       <Hero/>
-      <About/>
-      {/* <Skills/>
+      {/* <About/> */}
+      <Skills/>
       <Projects/>
-      <Footer/> */}
+      <Footer/>
      </section>
      
     
