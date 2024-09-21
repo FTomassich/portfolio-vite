@@ -8,8 +8,11 @@ position: relative;
     height: 70vh;
     background-color: black;
     border-top: solid 1px white;
-    scroll-margin-bottom: 100px;
+    
   }
+  .last-section{
+    scroll-margin-bottom: 100px;
+}
 
 .footer{
     display: flex;
