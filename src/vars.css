@@ -8,9 +8,10 @@
 
     /* fonts */
     --font-roboto: "Roboto";
+    overflow: hidden;
 
     
 }
-html, body {
-    overflow: hidden; /* Para asegurarte que no haya doble scroll */
-  }
+/* html, body {
+    overflow: hidden; 
+  }  */
