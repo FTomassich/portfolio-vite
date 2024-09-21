@@ -30,10 +30,12 @@ const Hero = () => {
       </div>
 
       <div className={styles.contImage}>
+        <div className={styles.box}>
         <img src={atron1} alt='Hero image of me' className={styles.heroImg} />
-<p className={styles.connect}>¿Conectamos ideas? Estoy a tan solo un click de distancia!</p>
+        </div>
+<p className={styles.connect}>💡¿Conectamos ideas? ¡Estoy a solo un click de distancia!</p>
+        
         <div className={styles.group}>
-
           <a href="https://github.com/FTomassich">
             <img className={styles.githubBtn} src={gitt} alt="" />
           </a>
