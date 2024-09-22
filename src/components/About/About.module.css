@@ -32,7 +32,7 @@
 }
 
 
-/* @keyframes show {
+@keyframes show {
     from {
         opacity: 0;
         scale: 25%;
@@ -53,7 +53,7 @@
 
     animation-range: entry 25% cover 50%;
     animation-fill-mode: both;
-} */
+}
 
 .subt {
     width: 80%;

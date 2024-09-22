@@ -117,7 +117,7 @@
 }
 
 
-/* @keyframes scroll {
+@keyframes scroll {
     0% {
       transform: translateX(0);
     }
@@ -137,7 +137,7 @@
         opacity: 1;
         scale: 100%;
     }
-} */
+}
 
 .title {
     view-timeline-name: --title;
