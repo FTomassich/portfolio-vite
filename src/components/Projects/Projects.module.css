@@ -19,7 +19,7 @@
     flex-direction: column;
 }
 
-@keyframes scroll {
+/* @keyframes scroll {
     0% {
         transform: translateX(0);
     }
@@ -49,7 +49,7 @@
     animation-name: show;
     animation-range: entry 25% cover 50%;
     animation-fill-mode: both;
-}
+} */
 
 .container {
     box-sizing: border-box;
