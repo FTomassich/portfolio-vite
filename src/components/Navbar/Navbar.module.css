@@ -10,6 +10,7 @@
   animation-timing-function: ease-in-out;
 }
 .navbar {
+    box-sizing: border-box;
     background-color: black;
     position: fixed;
    
