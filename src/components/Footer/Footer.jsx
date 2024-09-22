@@ -25,11 +25,10 @@ const Footer = () => {
             <img className={styles.contactBtn} src={sobre} alt="" />Mail
           </a>
         </div>
-
-        
-
         <img className={styles.footer} src={footer} alt="" />
+        
     </section>
+    
   )
 }
 

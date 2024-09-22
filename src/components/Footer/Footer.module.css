@@ -11,6 +11,12 @@
   
   }
 
+  .fix{
+    width: 0px;
+    height: 0px;
+    
+  }
+
 
 .footer{
     display: flex;
@@ -105,4 +111,5 @@ a{
 .githubBtn{
     width: 25px;
 }
+
   }

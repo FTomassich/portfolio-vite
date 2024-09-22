@@ -22,6 +22,7 @@ function App() {
       <Skills/>
       <Projects/>
       <Footer/>
+      <div className={styles.fix}></div>
      </section>
      
     
