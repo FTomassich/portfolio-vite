@@ -3,9 +3,11 @@
   font-family: "Outfit", Arial, Helvetica, sans-serif;
 }
 
-html{
+:root{
   overflow: hidden;
   height: 100vh;
+  margin:0;
+  padding:0;
 }
 body {
  
