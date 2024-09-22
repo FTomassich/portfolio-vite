@@ -20,8 +20,8 @@ function App() {
       
       <Hero/>
       <About/>
-      <Skills/>
-      <Projects/>
+      {/* <Skills/>
+      <Projects/> */}
       {/* <Footer/> */}
      </section>
      
