@@ -4,30 +4,26 @@ color:white;
 }
 
 
-:root{
-  overflow: hidden;
-}
 
-html{
- 
-  /* overflow: hidden; */
-  
+
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%; /* Ajustamos al 100% del contenedor padre */
+  overflow: hidden; /* Elimina el scroll en el HTML */
 }
 
 body { 
-  /* overflow: hidden; */
   margin: 0;
-  padding:0;
-  overflow-y: auto;
+  padding: 0;
   width: 100%;
-height: 100vh;
-  /* background-image: url("../src/wallpapers/dog.jpg") ; */
-  
-
+  height: 100%; /* Usa 100% en lugar de 100vh */
+  overflow: hidden; /* Evita scroll innecesario en el body */
+  /* Si necesitas un fondo aquí, lo puedes agregar, pero no 100vh */
 }
-
-/* .slick-slide>div {
+.slick-slide>div {
   margin: 0 10px;
 
 
-} */
+}
