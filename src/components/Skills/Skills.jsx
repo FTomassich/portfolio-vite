@@ -1,6 +1,6 @@
 
 import styles from '../Skills/Skills.module.css';
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import reactIcon from "../../assets/react.png";
 import postgresql from "../../assets/postgresql.png";
 import cssIcon from "../../assets/css.png";
@@ -64,8 +64,8 @@ const Skills = () => {
   return (
     <section id="skills" className={styles.section} >
       <div >
-        <h1 
-        className={styles.title}>Tech Skills</h1>
+        <h1
+          className={styles.title}>Tech Skills</h1>
       </div>
       <div className={styles.carousel}>
         <ul className={styles.techList}>
@@ -99,18 +99,18 @@ const Skills = () => {
           <h2 className={styles.h2}>BACK-END</h2>
           <h3 className={styles.h3}>EXPRESS/POSTGRESQL/SEQUELIZE</h3>
           <strong className={styles.strong}>
-          Mi trayecto se orienta a desarrollar soluciones backend robustas que soportan aplicaciones complejas, con un buen rendimiento. Mi experiencia incluye:
-          <br />
-          <br />
+            Mi trayecto se orienta a desarrollar soluciones backend robustas que soportan aplicaciones complejas, con un buen rendimiento. Mi experiencia incluye:
+            <br />
+            <br />
             -Diagramación y gestión de bases de datos eficientes con PostgreSQL. <br />
             <br />
             -Desarrollo de servidores en Express.js para aplicaciones Node.js.<br />
             <br />
             -Mapeo objeto-relacional con Sequelize ORM, creación de relaciones entre tablas e implementación de índices para mejorar el rendimiento.<br />
-            <br /> 
+            <br />
             -Integración de APIs con fetching de datos. <br />
             <br />
-            </strong>
+          </strong>
 
         </div>
       </div>
