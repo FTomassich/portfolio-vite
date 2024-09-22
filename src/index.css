@@ -11,19 +11,20 @@ html{
 }
 
 body {
+  overflow: hidden;
   margin: 0;
   display: flex;
   flex-direction: column;
   width: 100%;
 
-  min-height: 100vh;
+height: 100vh;
   /* background-image: url("../src/wallpapers/dog.jpg") ; */
 
 
 }
 
-.slick-slide>div {
+/* .slick-slide>div {
   margin: 0 10px;
 
 
-}
+} */
