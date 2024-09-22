@@ -3,6 +3,12 @@
   font-family: "Outfit", Arial, Helvetica, sans-serif;
 }
 
+:root{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
 html{
   display: flex;
   flex-direction: column;
