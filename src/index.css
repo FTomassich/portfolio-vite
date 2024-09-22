@@ -8,12 +8,12 @@ color:white;
 
 html{
  
-  /* overflow: hidden; */
+  overflow: hidden;
   
 }
 
 body { 
-  overflow: hidden;
+  
   margin: 0;
   padding:0;
   width: 100%;
