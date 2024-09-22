@@ -3,15 +3,15 @@
 
 .App {
     width: 100%;
-    min-height: 100vh; /* Cambiado a min-height para permitir expansión */
+    height: 100vh; /* Volvemos a 100vh para mantener el viewport controlado */
     
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 
-    scroll-behavior: smooth; /* Scroll suave */
-    overflow: auto; /* Asegura que se pueda hacer scroll si es necesario */
+    scroll-behavior: smooth; /* Para scroll suave */
+    overflow-y: scroll; /* Reactiva el scroll vertical */
 }
 
 
