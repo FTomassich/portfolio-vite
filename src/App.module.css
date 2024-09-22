@@ -19,7 +19,8 @@
     /* Para asegurar que tome toda la pantalla */
     overflow-y: auto;
    /* Para permitir el scroll */  
-    
+   overflow-y: auto; /* Controla el scroll aquí */
+   scroll-behavior: smooth; /* Para scroll suave */
    
 }
 
