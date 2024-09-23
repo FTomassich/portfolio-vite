@@ -31,7 +31,7 @@ const Projects = () => {
           
               </div>
               <span className={styles.txt}>WEB DEVELOPMENT</span>
-              <img src={dogsi} className={styles.imgDogs} alt="Find Dogs App" />
+              {/* <img src={dogsi} className={styles.imgDogs} alt="Find Dogs App" /> */}
               <button className={styles.seeMoreBtn} onClick={() => handleButtonClick(0)}>
                 Ver más
               </button>
@@ -73,7 +73,7 @@ const Projects = () => {
                 <h1 className={styles.sub}>Innova-tech</h1>
               </div>
               <span className={styles.txt}>WEB DEVELOPMENT</span>
-              <img src={go} alt="Innova-tech e-commerce" className={styles.img} />
+              {/* <img src={go} alt="Innova-tech e-commerce" className={styles.img} /> */}
               <button className={styles.seeMoreBtn} onClick={() => handleButtonClick(1)}>
                 Ver más
               </button>
@@ -110,7 +110,7 @@ const Projects = () => {
                 <h1 className={styles.sub}>Repuestos Córdoba</h1>
               </div>
               <span className={styles.txt}>PROYECTO COMERCIAL</span>
-              <img src={selectoras} alt="Innova-tech e-commerce" className={styles.imgSelec} />
+              {/* <img src={selectoras} alt="Innova-tech e-commerce" className={styles.imgSelec} /> */}
               <button className={styles.seeMoreBtn} onClick={() => handleButtonClick(2)}>
                 Ver más
               </button>
