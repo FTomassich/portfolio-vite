@@ -24,7 +24,9 @@
     align-items: center;
     justify-content: center;
     width: 200px;
-    height: 95%;
+    height: 100%;
+    margin-right:50px;
+    
 }
 
 .group {
@@ -86,7 +88,8 @@ padding: 30px;
         height: 200px;
     }
 .footer{
-    width:  100px;
+    width:  150px;
+    height: 150px;
     
 }
 
@@ -95,7 +98,7 @@ padding: 30px;
    height: auto;
    font-weight: 100;
 padding: 10px;
-    margin: 5px;
+    margin: 30px;
     
 }
 a{

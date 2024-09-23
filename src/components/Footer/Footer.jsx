@@ -3,7 +3,7 @@ import styles from '../Footer/Footer.module.css';
 import gitt from "../../assets/gitt.png"
 import sobre from "../../assets/sobre.png";
 import linkedin from "../../assets/linkedin.png";
-import footer from "../../assets/footer.jpg";
+import planet from "../../assets/planet.jpeg";
 
 
 
@@ -25,7 +25,7 @@ const Footer = () => {
             <img className={styles.contactBtn} src={sobre} alt="" />Mail
           </a>
         </div>
-        <img className={styles.footer} src={footer} alt="" />
+        <img className={styles.footer} src={planet} alt="" />
         
     </section>
     
