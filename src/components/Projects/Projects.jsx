@@ -134,20 +134,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className={`${styles.item} ${activeIndex === 3 ? styles.active : ''}`}>
-          <div className={styles.innerItem}>
-            <div className={styles.front}>
-              <h1 className={styles.sub}>Project 4</h1>
-              <img src={go} alt="Project 4" className={styles.img} />
-              <button className={styles.seeMoreBtn} onClick={() => handleButtonClick(3)}>
-                See More
-              </button>
-            </div>
-            <div className={styles.back}>
-              <p className={styles.description}>Description for project 4</p>
-            </div>
-          </div>
-        </div>
+       
       </div>
     </section>
   );
