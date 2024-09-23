@@ -85,11 +85,11 @@ padding: 30px;
   @media only screen and (max-width: 830px) {
 
     .section{
-        height: 200px;
+        height: auto;
     }
 .footer{
-    width:  150px;
-    height: 150px;
+    width:  100px;
+    height: 90px;
     
 }
 
@@ -97,22 +97,23 @@ padding: 30px;
     
    height: auto;
    font-weight: 100;
-padding: 10px;
+padding: 5px;
     margin: 30px;
+    gap: 17px;
     
 }
 a{
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .contactBtn {
-    width: 25px;
+    width: 22px;
 }
 .linkedinBtn{
-    width: 25px;
+    width: 22px;
 }
 .githubBtn{
-    width: 25px;
+    width: 22px;
 }
 
   }
