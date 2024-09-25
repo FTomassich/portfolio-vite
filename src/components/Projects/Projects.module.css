@@ -116,7 +116,7 @@ height: 100%;
   
   .back {
     
-    transform: rotateY(180deg); /* Rota la parte trasera para estar detrás */
+    transform: rotateY(180deg); 
   }
   
   .description {
@@ -175,7 +175,7 @@ height: 100%;
 }
 
 a {
-    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    text-decoration: none; 
     color: inherit; 
 }
 
@@ -221,7 +221,7 @@ a {
 
 
 .see-more-btn {
-    display: block; /* Mostrar botón en móviles */
+    display: block; 
     margin-top: 10px;
     padding: 10px 20px;
     background-color: #007bff;
@@ -234,7 +234,7 @@ a {
   
 @media only screen and (max-width: 830px) {
       .item.active .inner-item {
-        transform: rotateY(180deg); /* Aplica rotación cuando el estado está activo */
+        transform: rotateY(180deg); 
       }
    
     .title {
