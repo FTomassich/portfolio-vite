@@ -2,7 +2,7 @@
 
 
 .cohete13{
-    margin-left: 30px;
+    margin-left: 5%;
     width: 150px;
     animation-name: floating;
   animation-duration: 4s;
@@ -16,13 +16,10 @@
     top:0;
    width: 100%;
     z-index: 3;
-   
- 
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 100px;
-    
     border-bottom: solid 1px;
     
 }
@@ -37,7 +34,7 @@
 
 .menu {
     display: flex;
-    margin-right: 10%;
+    margin-right: 5%;
 }
 
 .menuBtn {
@@ -71,7 +68,7 @@
 }
 
 .menuItems a:hover::after {
-    width: 100%; /* Hace que el subrayado se complete suavemente al pasar el cursor */
+    width: 100%; 
 }
 
 @keyframes floating {
@@ -102,6 +99,7 @@
         align-items: flex-end;
         gap: 11px;
         z-index: 3;
+        
     }
 
     .title {
