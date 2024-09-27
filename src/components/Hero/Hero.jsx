@@ -26,7 +26,7 @@ const Hero = () => {
 
         </typing-effect>
 
-        <p className={styles.description}>Desarrollador web Full stack con background en comunicación y producción de contenidos👨‍💻</p>
+        <p className={styles.description}>Desarrollador web Full stack con background en producción de contenidos</p>
       </div>
 
       <div className={styles.contImage}>

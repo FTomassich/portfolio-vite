@@ -15,9 +15,6 @@
   justify-content: center;
   height: auto;
   scroll-margin-top: 100px;
-
-  
-  
 }
 
 .content {
@@ -25,13 +22,15 @@
   height: 350px;
   display: flex;
   flex-direction: column;
-  align-items:center;
+  margin-left: 6%;
   align-content: center;
   justify-content: space-between;
   font-size: 85px;
   font-weight: 700;
   color: var(--color-text);
   z-index: 1;
+  
+  
   
   margin-top: 60px;
 }
@@ -49,14 +48,14 @@
 .description {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  
   align-items: center;
   color: var(--color-text);
-  width: 85%;
+  width: 100%;
   font-size: 30px;
   font-weight: 200;
   font-family: var(--font-roboto);
-text-align: center;
+text-align: flex-start;
 
   border-radius: 10px;
   
@@ -129,13 +128,13 @@ text-align: center;
 }
 
 .title {
-  font-weight: 00;
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   margin-bottom: 33px;
-  color: blue;
+  
 }
 
 
@@ -165,7 +164,7 @@ text-align: center;
 @media only screen and (max-width: 830px) {
   .container {
     flex-direction: column;
-    justify-content: normal;
+    
     align-items: center;
 
     box-sizing: border-box;
@@ -189,9 +188,7 @@ text-align: center;
     margin: auto;
   }
 
-  .description {
-    margin-top: 10px;
-  }
+ 
 
   .heroImg {
     width: 300px;
@@ -205,6 +202,10 @@ text-align: center;
   .description {
     font-size: 18px;
     font-weight: 400;
+    width: 80%;
+    
+    text-align: center;
+    
   }
 
   .contImage {
