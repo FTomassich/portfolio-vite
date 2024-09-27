@@ -194,7 +194,7 @@ text-align: flex-start;
     height: 200px;
   }
   .name{
-  padding:15px;
+  padding-left:15px;
   display: flex;
   flex-direction: row;
   
@@ -206,7 +206,7 @@ text-align: flex-start;
     font-size: 18px;
     font-weight: 400;
     width: 300px;
-    padding: 10px;
+    padding-left: 15px;
       
     
   }
