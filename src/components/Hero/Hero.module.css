@@ -206,7 +206,9 @@ text-align: flex-start;
   .description {
     font-size: 18px;
     font-weight: 400;
-    width: auto;
+    width: 300px;
+    margin-left: 50px;
+    
     
   }
 
