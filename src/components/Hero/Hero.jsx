@@ -13,7 +13,7 @@ const Hero = () => {
     <section id="home" className={styles.container} >
       
       <div className={styles.content}>
-       <p>Franco Tomassich</p>
+       <p className={styles.name}>Franco Tomassich</p>
 
         <p className={styles.description}>Desarrollador web Full stack con background en producción de contenidos</p>
       </div>

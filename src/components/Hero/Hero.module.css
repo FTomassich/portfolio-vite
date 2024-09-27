@@ -170,14 +170,14 @@ text-align: flex-start;
     /* margin-left: 5%; */
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 85%;
  
     height: 280px;
-    align-items: center;
+    /* align-items: center; */
     padding: 25px;
     box-sizing: border-box;
     margin: auto;
-    
+ align-items: center;   
   }
 
   .contImage{
@@ -193,11 +193,20 @@ text-align: flex-start;
   .box{
     height: 200px;
   }
+  .name{
+  padding:15px;
+  display: flex;
+  flex-direction: row;
   
+    width: 300px;
+   
+  }
 
   .description {
     font-size: 18px;
     font-weight: 400;
+    width: 300px;
+    padding: 10px;
       
     
   }
