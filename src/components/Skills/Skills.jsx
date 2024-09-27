@@ -18,9 +18,9 @@ import sequelize from "../../assets/sequelize.png"
 const Skills = () => {
   useEffect(() => {
     const observerOptions = {
-      root: null, // Use the viewport as the root
+      root: null, 
       rootMargin: '0px',
-      threshold: 0.4 // Trigger the callback when 30% of the element is visible
+      threshold: 0.4 
     };
 
     const handleIntersect = (entries) => {
@@ -53,9 +53,10 @@ const Skills = () => {
     { src: cssIcon, alt: "CSS" },
     { src: postgresql, alt: "PostgreSQL" },
     { src: node, alt: "Node.js" },
-    { src: javascript, alt: "JavaScript" },
+   
     { src: git, alt: "Git" },
     { src: vite, alt: "Vite" },
+    { src: javascript, alt: "JavaScript" },
     { src: html, alt: "Html" },
     { src: sequelize, alt: "Sequelize" }
 
@@ -65,7 +66,7 @@ const Skills = () => {
     <section id="skills" className={styles.section} >
       <div >
         <h1
-          className={styles.title}>Tech Skills</h1>
+          className={styles.title}>Habilidades</h1>
       </div>
       <div className={styles.carousel}>
         <ul className={styles.techList}>
