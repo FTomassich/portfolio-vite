@@ -7,6 +7,9 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import space2020 from "./assets/space2020.jpg";
 import Footer from "./components/Footer/Footer";
+import Experience from "./components/Experience/Experience";
+
+
 
 
 function App() {
@@ -22,6 +25,8 @@ function App() {
       <About/>
       <Skills/>
       <Projects/>
+      <Experience/>
+      
       <Footer/>
      <div className={styles.fix}></div>
      </section>

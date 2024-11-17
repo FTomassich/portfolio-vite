@@ -4,7 +4,7 @@ import gitt from "../../assets/gitt.png"
 import atron1 from "../../assets/atron1.png";
 import mail from "../../assets/mail.png";
 import linkedin from "../../assets/linkedin.png";
-import TypingEffectElement from '@github/typing-effect-element';
+
 
 const Hero = () => {
 

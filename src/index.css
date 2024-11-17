@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 * {
 color:white;
   font-family: "Outfit", Arial, Helvetica, sans-serif;
