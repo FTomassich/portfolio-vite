@@ -106,17 +106,17 @@ const Projects = () => {
           <div className={styles.innerItem}>
             <div className={styles.front}>
               <div className={styles.group2}>
-                <img className={styles.btn} src={cart} alt="" />
-                <h1 className={styles.sub}>Repuestos Córdoba</h1>
+                
+                <h1 className="text-xl font-bold text-gray-700 mb-8 last:mb-0 bg-white bg-opacity-60 rounded-lg shadow-md p-3">Otaku Zone Foro</h1>
               </div>
-              <span className={styles.txt}>PROYECTO COMERCIAL</span>
+              <span className={styles.txt}>DESARROLLO WEB</span>
               <img src={selectoras} alt="Innova-tech e-commerce" className={styles.imgSelec} />
               <button className={styles.seeMoreBtn} onClick={() => handleButtonClick(2)}>
                 Ver más
               </button>
             </div>
             <div className={styles.back}>
-              <p className={styles.description}>Página comercial en Facebook especializada en la venta de repuestos de automóviles en Argentina. El proyecto está en constante evolución y ya ha logrado un excelente nivel de interacción, con más de tres mil seguidores activos. Actualmente, cuenta con más de 3.700 publicaciones en Marketplace y una amplia base de clientes satisfechos en todo el país.</p>
+              <p className={styles.description}>Proyecto de la empresa CyberSinn Solutions que consistió en un foro de discusión con formato de red social.  </p>
               
               <div className={styles.flex}>
               <a href="https://www.facebook.com/selectorascordoba/">
