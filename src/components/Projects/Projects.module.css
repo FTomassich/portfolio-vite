@@ -16,6 +16,7 @@
     width: 100%;
     align-items: center;
     font-size: 90px;
+    font-weight: 300px;
     flex-direction: column;
 }
 
