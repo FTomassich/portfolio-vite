@@ -2,7 +2,7 @@ import React from 'react';
 import { Calendar, Briefcase } from 'lucide-react';
 
 const TimelineItem = ({ title, date, description, tasks, icon: Icon }) => (
-  <div className="mb-8 last:mb-0 bg-white bg-opacity-90 rounded-lg shadow-md p-6">
+  <div className="mb-8 last:mb-0 bg-white bg-opacity-20 rounded-lg shadow-md p-6">
     <div className="flex items-center mb-4">
       <div className="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500 text-white mr-4 shadow-lg">
         <Icon className="w-6 h-6" />
