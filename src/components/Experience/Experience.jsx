@@ -8,13 +8,13 @@ const TimelineItem = ({ title, date, description, tasks, icon: Icon }) => (
         <Icon className="w-6 h-6" />
       </div>
       <div>
-        <h3 className="text-xl font-bold text-gray-800">{title}</h3>
-        <time className="text-sm font-medium text-gray-600">{date}</time>
+        <h3 className="text-xl font-bold text-blue-500">{title}</h3>
+        <time className="text-sm font-medium text-blue-500">{date}</time>
       </div>
     </div>
     <div className="ml-16">
-      <p className="mb-4 text-gray-700">{description}</p>
-      <ul className="list-disc pl-5 space-y-2 text-gray-800">
+      <p className="mb-4 text-white">{description}</p>
+      <ul className="list-disc pl-5 space-y-2 text-white">
         {tasks.map((task, index) => (
           <li key={index} className="text-base">{task}</li>
         ))}
@@ -45,7 +45,7 @@ export default function Timeline() {
           date="Octubre 2022 - Presente"
           description="En mi rol actual, he sido responsable de:"
           tasks={[
-            "Liderar el desarrollo de una aplicación móvil multiplataforma usando React Native",
+            "Desarrollo de una aplicación móvil multiplataforma usando React Native",
             
           ]}
           icon={Briefcase}
