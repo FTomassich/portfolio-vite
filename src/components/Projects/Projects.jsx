@@ -107,7 +107,7 @@ const Projects = () => {
             <div className={styles.front}>
               <div className={styles.group2}>
                 
-                <h1 className="text-xl font-bold text-gray-700 mb-8 last:mb-0 bg-white bg-opacity-60 rounded-lg shadow-md p-3">Otaku Zone Foro</h1>
+                <h1 className="text-xl font-bold text-gray-700 mb-8 last:mb-0 bg-[rgba(255,255,255,0.1)]  rounded-lg shadow-md p-3">Otaku Zone Foro</h1>
               </div>
               <span className={styles.txt}>DESARROLLO WEB</span>
               <img src={selectoras} alt="Innova-tech e-commerce" className={styles.imgSelec} />
@@ -119,7 +119,7 @@ const Projects = () => {
               <p className={styles.description}>Proyecto de la empresa CyberSinn Solutions que consistió en un foro de discusión con formato de red social.  </p>
               
               <div className={styles.flex}>
-              <a href="https://www.facebook.com/selectorascordoba/">
+              <a >
                 <div className={styles.groupx}>
                   <img className={styles.btn} src={planet} alt="" />
                   <p>LINK</p>
