@@ -8,8 +8,8 @@ const TimelineItem = ({ title, date, description, tasks, icon: Icon }) => (
         <Icon className="w-6 h-6" />
       </div>
       <div>
-        <h3 className="text-xl font-bold text-[#003366]">{title}</h3>
-        <time className="text-sm font-medium text-[#003366]">{date}</time>
+        <h3 className="text-xl font-bold text-white">{title}</h3>
+        <time className="text-sm font-medium text-white">{date}</time>
       </div>
     </div>
     <div className="ml-16">
