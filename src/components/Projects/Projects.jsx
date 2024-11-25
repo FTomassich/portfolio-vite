@@ -107,7 +107,7 @@ const Projects = () => {
             <div className={styles.front}>
               <div className={styles.group2}>
                 
-                <h1 className="text-xl font-bold text-gray-700 mb-8 last:mb-0 bg-[rgba(255,255,255,0.1)]  rounded-lg shadow-md p-3">Otaku Zone Foro</h1>
+                <h1 className="text-xl font-bold text-gray-700 mb-8 last:mb-0 bg-transparent  rounded-lg shadow-md p-3">Otaku Zone Foro</h1>
               </div>
               <span className={styles.txt}>DESARROLLO WEB</span>
               <img src={selectoras} alt="Innova-tech e-commerce" className={styles.imgSelec} />
