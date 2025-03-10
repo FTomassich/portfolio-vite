@@ -31,21 +31,25 @@ export default function Timeline() {
       </h2>
       <div className="space-y-8">
         <TimelineItem 
-          title="Desarrollador Full Stack"
-          date="Octubre 2022 - Presente"
+          title="Desarrollador Full Stack - Empresa CyberSinn Solutions"
+          date="Octubre 2024 - Diciembre 2024" 
           description="Durante este período, trabajé en el siguiente proyecto:"
           tasks={[
-            "Desarrollo de una aplicación web de comercio electrónico utilizando React y Node.js",
+            "Desarrollo de un foro de discusión, con formato de red social, relacionado al comic, el animé y otros consumos culturales.",
             
           ]}
           icon={Calendar}
         />
         <TimelineItem 
           title="Desarrollador Full Stack"
-          date="Octubre 2022 - Presente"
-          description="En mi rol actual, he sido responsable de:"
+          date="Noviembre 2024 - Enero 2024" 
+          description="Durante este trayecto, he sido responsable de desarrollar una aplicación móvil de índole administrativa, que facilita el registro de empleados en empresas constructoras. La app facilitó la carga y visualización de la información relacionada a la contratación y registro de incidencias laborales. 
+          "
+          
           tasks={[
-            "Desarrollo de una aplicación móvil multiplataforma usando React Native",
+            "Desplegar una app orientada a iOS utilizando React Native, Redux, Tailwind CSS",
+            "Desarrollar un formulario paginado, con auto-completado, que permite registrar nuevos empleados y/o consultar información",
+            "Garantizar la consistencia de los datos manteniendo un comunicación fluida con el equipo de backend."
             
           ]}
           icon={Briefcase}
