@@ -26,9 +26,10 @@ const TimelineItem = ({ title, date, description, tasks, icon: Icon }) => (
 export default function Timeline() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
-      <h2 className="text-5xl font-extrabold text-center mb-12 text-white-700 py-10">
-        Experiencia Profesional
-      </h2>
+      <h2 className="text-5xl font-extrabold text-center mb-12 text-white-700 py-10 leading-[2.5rem]">
+  Experiencia Profesional
+</h2>
+
       <div className="space-y-8">
         <TimelineItem 
           title="Desarrollador Full Stack"
