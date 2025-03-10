@@ -31,7 +31,7 @@ export default function Timeline() {
       </h2>
       <div className="space-y-8">
         <TimelineItem 
-          title="Desarrollador Full Stack - Empresa CyberSinn Solutions"
+          title="Desarrollador Full Stack"
           date="Octubre 2024 - Diciembre 2024" 
           description="Durante este período, trabajé en el siguiente proyecto:"
           tasks={[
