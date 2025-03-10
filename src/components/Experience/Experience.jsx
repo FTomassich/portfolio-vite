@@ -29,9 +29,7 @@ export default function Timeline() {
       <h2 className="text-5xl font-extrabold text-center mb-12 text-white-700">
   Experiencia 
   </h2>
-  <h2>
-  Profesional
-</h2>
+  
 
       <div className="space-y-8">
         <TimelineItem 
