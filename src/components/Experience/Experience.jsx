@@ -26,7 +26,7 @@ const TimelineItem = ({ title, date, description, tasks, icon: Icon }) => (
 
 export default function Timeline() {
   return (
-    <div id= "experience" className="max-w-4xl mx-auto px-4 py-12">
+    <div id= "experience" className="max-w-4xl mx-auto px-4 py-20">
       <h1 className={styles.title}>
   Experiencia 
   </h1>
