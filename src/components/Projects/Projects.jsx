@@ -20,7 +20,7 @@ const Projects = () => {
 
   return (
     <section id="projects" className={styles.section}>
-      <h1 className="text-5xl font-extrabold text-center mb-12 text-white-700">Proyectos</h1>
+      <h1 className={styles.title}>Proyectos</h1>
       <div className={styles.container}>
         <div className={`${styles.item} ${activeIndex === 0 ? styles.active : ''}`}>
           <div className={styles.innerItem}>

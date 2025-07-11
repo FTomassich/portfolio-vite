@@ -1,5 +1,6 @@
 import React from 'react';
 import { Calendar, Briefcase } from 'lucide-react';
+import styles from '../Skills/Skills.module.css';
 
 const TimelineItem = ({ title, date, description, tasks, icon: Icon }) => (
   <div className="mb-8 last:mb-0 bg-[rgba(255,255,255,0.1)] rounded-lg shadow-md p-6">
@@ -26,7 +27,7 @@ const TimelineItem = ({ title, date, description, tasks, icon: Icon }) => (
 export default function Timeline() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
-      <h1 className="text-5xl font-extrabold text-center mb-12 text-white-700">
+      <h1 className={styles.title}>
   Experiencia 
   </h1>
   

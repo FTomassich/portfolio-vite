@@ -66,7 +66,7 @@ const Skills = () => {
     <section id="skills" className={styles.section} >
       <div >
         <h1
-          className="text-5xl font-extrabold text-center mb-12 text-white-700">Habilidades</h1>
+          className={styles.title}>Habilidades</h1>
       </div>
       <div className={styles.carousel}>
         <ul className={styles.techList}>
