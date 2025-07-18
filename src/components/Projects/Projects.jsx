@@ -32,7 +32,7 @@ const Projects = () => {
           
               </div>
               <span className={styles.txt}>APP-GESTIÓN HUMANA</span>
-              <img src={edit} className={`${styles.imgSelec} px-8 py-2 md:px-0 py-0`} alt="Find Dogs App" />
+              <img src={edit} className={`${styles.imgSelec} px-8 py-3 md:px-0 py-0`} alt="Find Dogs App" />
               <button className={styles.seeMoreBtn} onClick={() => handleButtonClick(0)}>
                 Ver más
               </button>
