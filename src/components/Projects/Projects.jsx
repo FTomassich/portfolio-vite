@@ -69,8 +69,7 @@ const Projects = () => {
                 <h1 className={styles.sub}>Innova-tech</h1>
               </div>
               <span className={styles.txt}>E-COMMERCE</span>
-              <img src={go} alt="Innova-tech e-commerce" className={`${styles.img} px-4 md:px-0`} 
- />
+              <img src={go} alt="Innova-tech e-commerce" className={styles.img} />
               <button className={styles.seeMoreBtn} onClick={() => handleButtonClick(1)}>
                 Ver más
               </button>
