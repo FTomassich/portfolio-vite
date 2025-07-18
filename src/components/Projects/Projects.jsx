@@ -106,7 +106,7 @@ const Projects = () => {
                 <h1 className={styles.sub}>O-Zone</h1>
               </div>
               <span className={styles.txt}>FORO INTERACTIVO</span>
-              <img  src={proyecto}alt="Innova-tech e-commerce" className={styles.imgDogs} />
+              <img  src={proyecto}alt="Innova-tech e-commerce" className={styles.imgSelec} />
               <button className={styles.seeMoreBtn} onClick={() => handleButtonClick(2)}>
                 Ver más
               </button>
