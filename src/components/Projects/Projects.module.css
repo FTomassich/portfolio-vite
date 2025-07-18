@@ -16,7 +16,6 @@
     width: 100%;
     align-items: center;
     font-size: 90px;
-    font-weight: 300px;
     flex-direction: column;
 }
 
@@ -136,7 +135,7 @@ height: 100%;
 
 .imgDogs {
     aspect-ratio: 4/3;
-    width: 350px;
+    width: 300px;
     height: 260px;
     background-size: contain;
     background-position: center;
@@ -235,9 +234,6 @@ a {
         transform: rotateY(180deg); 
       }
    
-    
-   
-  
    .item{
     height: 440px;
    }
