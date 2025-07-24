@@ -112,7 +112,7 @@ const Projects = () => {
               </button>
             </div>
             <div className={styles.back}>
-              <p className={styles.description}>El proyecto O-Zone de la empresa CyberSinn Solutions consistió en el desarrollo de un foro de discusión diseñado para conectar a usuarios apasionados por la cultura del cómic, el animé, el K-pop y otros intereses relacionados. Stack Técnico utilizado: Node, React, Typescript, Tailwind CSS. Express, MongoDB, Trello, Postman.</p>
+              <p className={styles.description}>El foro O-Zone de la empresa CyberSinn Solutions fue diseñado para conectar a usuarios apasionados por la cultura del cómic, el animé, el K-pop y otros intereses relacionados. Stack Técnico utilizado: Node, React, Typescript, Tailwind CSS. Express, MongoDB, Trello, Postman.</p>
               
               <div className={styles.flex}>
               <a href="https://drive.google.com/file/d/16Wa81EoFkSZst2wZ2XLA1mLcU--Sx0b4/view?usp=drive_link">

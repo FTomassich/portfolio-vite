@@ -34,25 +34,27 @@ export default function Timeline() {
 
       <div className="space-y-8">
         <TimelineItem 
-          title="Desarrollador Full Stack"
+          title="Desarrollador Frontend en CyberSinn Solutions"
           date="Octubre 2024 - Diciembre 2024" 
-          description="Durante este período, trabajé en el siguiente proyecto:"
+          description="Durante este período, trabajé en el desarrollo de un foro de discusión, con formato de red social, relacionado al comic, el animé y otros consumos culturales. Mis tareas en este rol fueron:"
           tasks={[
-            "Desarrollo de un foro de discusión, con formato de red social, relacionado al comic, el animé y otros consumos culturales.",
-            
+            "Diseñar y desarrollar vistas web intuitivas, basadas en principios sólidos de UX/UI, asegurando una experiencia de usuario fluida y atractiva.",
+            "Implementación de interfaces de usuario dinámicas y componentes responsivos mediante el uso de Typescript, React y Tailwind CSS, optimizando la adaptabilidad en diferentes dispositivos.",
+            "Colaboración en la planificación y gestión del proyecto utilizando herramientas como Trello, fomentando un flujo de trabajo organizado y eficiente en el marco de las metodologías ágiles."
           ]}
           icon={Calendar}
         />
         <TimelineItem 
-          title="Desarrollador Full Stack"
+          title="Desarrollador Frontend en Quality Soft Services"
           date="Noviembre 2024 - Enero 2024" 
-          description="Durante este trayecto, he sido responsable de desarrollar una aplicación móvil de índole administrativa, que facilita el registro de empleados en empresas constructoras. La app facilitó la carga y visualización de la información relacionada a la contratación y registro de incidencias laborales. 
+          description="Durante este trayecto, he sido responsable de desarrollar una aplicación móvil de índole administrativa, que facilita el registro de empleados en empresas constructoras. La app facilitó la carga y visualización de la información relacionada a la contratación y registro de incidencias laborales. Mi aporte consistió en:
           "
           
           tasks={[
             "Desplegar una app orientada a iOS utilizando React Native, Redux, Tailwind CSS",
-            "Desarrollar un formulario paginado, con auto-completado, que permite registrar nuevos empleados y/o consultar información",
-            "Garantizar la consistencia de los datos manteniendo un comunicación fluida con el equipo de backend."
+            "Desarrollo de un formulario paginado en formato carrousel, con funciones de autocompletado, para el registro de nuevos empleados y consulta de datos del personal existente.",
+            "Integración de múltiples endpoints, asegurando una gestión eficiente y fluida de los datos.",
+            "Colaborar estrechamente con el equipo de backend para garantizar la consistencia y precisión en los procesos de activación y registro."
             
           ]}
           icon={Briefcase}
