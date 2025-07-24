@@ -38,7 +38,9 @@ const Projects = () => {
               </button>
             </div>
             <div className={styles.back}>
-            <p className={styles.description}>La APP de Gestión Humana de Quality es una herramienta administrativa funcional y responsiva, diseñada principalmente para iOS, que facilita la gestión, contratación y registro de empleados en empresas constructoras. Stack técnico utilizado: Node, Typescript, React Native, Redux Tool-Kit, Swagger, Postman</p>
+            <p className={styles.description}>La APP de Gestión Humana de Quality es una herramienta administrativa funcional y responsiva, diseñada principalmente para iOS, que facilita la gestión, contratación y registro de empleados en empresas constructoras. <br />
+<br />
+Stack técnico utilizado: Node, Typescript, React Native, Redux Tool-Kit, Swagger, Postman</p>
 
 
 
@@ -75,7 +77,9 @@ const Projects = () => {
               </button>
             </div>
             <div className={styles.back}>
-              <p className={styles.description}>Innova-Tech es una moderna plataforma e-commerce de productos tecnológicos, que ofrece a sus clientes una experiencia de compra agradable, fluida, eficiente y segura. Algunas tecnologías desplegadas en su desarrollo fueron: Node, React, Redux, Cloudinary, PostgreSQL, Express, Sequelize, JsonWebToken, 0auth, Mercadopago, Insomnia, Postman, Trello.</p>
+              <p className={styles.description}>Innova-Tech es una moderna plataforma e-commerce de productos tecnológicos, que ofrece a sus clientes una experiencia de compra agradable, fluida, eficiente y segura. <br />
+<br />
+Algunas tecnologías desplegadas en su desarrollo fueron: Node, React, Redux, Cloudinary, PostgreSQL, Express, Sequelize, JsonWebToken, 0auth, Mercadopago, Insomnia, Postman, Trello.</p>
               
               <div className={styles.flex}>
               <a href="https://github.com/Vrmoya/innovatech-front">
@@ -112,7 +116,9 @@ const Projects = () => {
               </button>
             </div>
             <div className={styles.back}>
-              <p className={styles.description}>El foro O-Zone de la empresa CyberSinn Solutions fue diseñado para conectar a usuarios apasionados por la cultura del cómic, el animé, el K-pop y otros intereses relacionados. Stack Técnico utilizado: Node, React, Typescript, Tailwind CSS. Express, MongoDB, Trello, Postman.</p>
+              <p className={styles.description}>El foro O-Zone de la empresa CyberSinn Solutions fue diseñado para conectar a usuarios apasionados por la cultura del cómic, el animé, el K-pop y otros intereses relacionados. <br />
+<br />
+Stack Técnico utilizado: Node, React, Typescript, Tailwind CSS. Express, MongoDB, Trello, Postman.</p>
               
               <div className={styles.flex}>
               <a href="https://drive.google.com/file/d/16Wa81EoFkSZst2wZ2XLA1mLcU--Sx0b4/view?usp=drive_link">
