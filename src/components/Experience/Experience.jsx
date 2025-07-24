@@ -2,7 +2,7 @@ import React from 'react';
 import { Calendar, Briefcase } from 'lucide-react';
 import styles from '../Skills/Skills.module.css';
 
-const TimelineItem = ({ title, date, description, tasks, icon: Icon }) => (
+const TimelineItem = ({ title, subtitle, date, description, tasks, icon: Icon }) => (
   <div className="mb-8 last:mb-0 bg-[rgba(255,255,255,0.1)] rounded-lg shadow-md p-6">
     <div className="flex items-center mb-4">
       <div className="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500 text-white mr-4 shadow-lg">
@@ -10,6 +10,7 @@ const TimelineItem = ({ title, date, description, tasks, icon: Icon }) => (
       </div>
       <div>
         <h3 className="text-xl font-bold text-white">{title}</h3>
+        <h3 className="text-l font-bold text-white">{subtitle}</h3>
         <time className="text-sm font-medium text-white">{date}</time>
       </div>
     </div>
@@ -34,7 +35,8 @@ export default function Timeline() {
 
       <div className="space-y-8">
         <TimelineItem 
-          title="Desarrollador Frontend en CyberSinn Solutions"
+          title="Desarrollador Frontend"
+          subtitle="CyberSinn Solutions"
           date="Octubre 2024 - Diciembre 2024" 
           description="Durante este período, trabajé en el desarrollo de un foro de discusión, con formato de red social, relacionado al comic, el animé y otros consumos culturales. Mis tareas en este rol fueron:"
           tasks={[
@@ -45,7 +47,8 @@ export default function Timeline() {
           icon={Calendar}
         />
         <TimelineItem 
-          title="Desarrollador Frontend en Quality Soft Services"
+          title="Desarrollador Frontend"
+          subtitle="Quality Soft Services"
           date="Noviembre 2024 - Enero 2024" 
           description="Durante este trayecto, he sido responsable de desarrollar una aplicación móvil de índole administrativa, que facilita el registro de empleados en empresas constructoras. La app facilitó la carga y visualización de la información relacionada a la contratación y registro de incidencias laborales. Mi aporte consistió en:
           "
