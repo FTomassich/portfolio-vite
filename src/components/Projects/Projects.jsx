@@ -79,7 +79,7 @@ Stack técnico utilizado: Node, Typescript, React Native, Redux Tool-Kit, Swagge
             <div className={styles.back}>
               <p className={styles.description}>Innova-Tech es una moderna plataforma e-commerce de productos tecnológicos, que ofrece a sus clientes una experiencia de compra agradable, fluida, eficiente y segura. <br />
 <br />
-Algunas tecnologías desplegadas en su desarrollo fueron: Node, React, Redux, Cloudinary, PostgreSQL, Express, Sequelize, JsonWebToken, 0auth, Mercadopago, Insomnia, Postman, Trello.</p>
+Tecnologías desplegadas: Node, React, Redux, Cloudinary, PostgreSQL, Express, Sequelize, JsonWebToken, 0auth, Mercadopago, Insomnia, Postman, Trello.</p>
               
               <div className={styles.flex}>
               <a href="https://github.com/Vrmoya/innovatech-front">
