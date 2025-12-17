@@ -13,9 +13,7 @@
   justify-content: center;
   height: auto;
   scroll-margin-top: 100px;
-
 }
-
 
 .content {
   font-family: var(--font-text);
@@ -114,11 +112,12 @@
 }
 
 .heroImg {
+  
   /* position: relative; */
   /* margin-right: 10%; */
   width: 300px;
   z-index: 1;
-  border-radius: 45%;
+  border-radius: 50%;
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
