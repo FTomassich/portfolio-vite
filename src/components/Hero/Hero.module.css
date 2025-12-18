@@ -201,8 +201,8 @@
 
   .contImage {
    
-     justify-content: space-around;
-    height: 400px;
+     justify-content: space-between;
+    /* height: 400px; */
     margin: auto;
     margin-top: -30px;
   }

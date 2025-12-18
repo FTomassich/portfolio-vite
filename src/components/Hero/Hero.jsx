@@ -24,7 +24,7 @@ const Hero = () => {
         <div className={styles.box}>
         <img src={ft} alt='Hero image of me' className={styles.heroImg} />
         </div>
-<p className={styles.connect}>💡¿Conectamos ideas? ¡Estoy a solo un click de distancia!</p>
+{/* <p className={styles.connect}>💡¿Conectamos ideas? ¡Estoy a solo un click de distancia!</p> */}
         
         <div className={styles.group}>
           <a href="https://github.com/FTomassich">
