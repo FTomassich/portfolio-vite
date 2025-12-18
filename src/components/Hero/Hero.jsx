@@ -17,7 +17,7 @@ const Hero = () => {
         <p className={styles.name}>Franco</p>
        <p className={styles.name2}>Tomassich</p>
        </div>
-        <p className={styles.description}>Desarrollador web Full stack con background en producción de contenidos</p>
+        <p className={styles.description}>Desarrollador web Full stack con experiencia en diseño de interfaces creativas y funcionales</p>
       </div>
 
       <div className={styles.contImage}>
