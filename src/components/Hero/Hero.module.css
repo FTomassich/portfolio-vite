@@ -201,10 +201,10 @@
 
   .contImage {
    
-     justify-content: space-between;
-    /* height: 400px; */
-    margin: auto;
-    margin-top: -30px;
+    height: auto;              /* deja que se ajuste al contenido */
+    margin-top: -20px;         /* opcional, sube todo el bloque */
+    gap: 10px;                 /* controla la separación entre elementos */
+    justify-content: center;
   }
 
 
@@ -240,10 +240,7 @@ font-size: 50px;
 
   }
 
-  .contImage {
-    justify-content: space-around;
-    height: 400px;
-  }
+  
 
   .contactBtn {
     width: 35px
@@ -260,6 +257,8 @@ font-size: 50px;
   .connect {
     font-size: 12px;
   }
-
+.group {
+    margin-top: 10px;          /* acerca los botones a la imagen */
+  }
 
 }
