@@ -42,7 +42,7 @@
 
 .name {
   font-weight: 700;
-
+ color: #d1d5db;
   text-align: center;
 }
 
@@ -50,13 +50,14 @@
   font-weight: 700;
   font-size: 95px;
   text-align: center;
+  color:#d1d5db; 
 }
 
 .description {
   display: flex;
   flex-direction: row;
   align-items: center;
-  color: white;
+  color: #d1d5db; 
   width: 80%;
   font-size: 30px;
   font-weight: 200;
