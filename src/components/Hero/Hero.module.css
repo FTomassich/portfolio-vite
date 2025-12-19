@@ -63,8 +63,8 @@
   text-align: center;
   border-radius: 10px;
    border-radius: 10px;
-  border: 2px solid #8a2be2; /* violeta futurista */
-  box-shadow: 0 0 15px #8a2be2; /* efecto glow */
+ border: 2px solid #0000ff; /* azul fuerte */
+  box-shadow: 0 0 15px #0000ff; /* glow azul intenso */
 padding: 15px;
 }
 
@@ -237,12 +237,9 @@ font-size: 50px;
   .description {
     font-size: 15px;
     font-weight: 400;
-    width: 350px;
+    width: 300px;
     margin-top: 20px;
     padding: 10px;
-
-
-
   }
 
   
